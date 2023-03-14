@@ -1,4 +1,17 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Presentation
+
+TODO
+
+## Initial setup
+
+- `npm install`
+
+## Run presentation
+
+- `./start-presentation.sh`
+- visit http://localhost:3030
+
+## Original README from [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
 
