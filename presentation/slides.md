@@ -229,14 +229,14 @@ layout: two-cols
 
 - https://www.gnu.org/software/bash/
 - package manager
-    - bash-it: <gh-stars count="12k"/> https://github.com/Bash-it/bash-it
-    - oh-my-bash: <gh-stars count="2k"/> https://ohmybash.github.io
+    - bash-it: <gh-stars count="13k"/> https://github.com/Bash-it/bash-it
+    - oh-my-bash: <gh-stars count="4k"/> https://ohmybash.github.io
 
 ### zsh
 
 - https://www.zsh.org/
 - package manager
-    - oh-my-zsh: <gh-stars count="128k"/> https://ohmyz.sh
+    - oh-my-zsh: <gh-stars count="157k"/> https://ohmyz.sh
 
 ::right::
 
@@ -244,8 +244,8 @@ layout: two-cols
 
 - https://fishshell.com
 - package manager
-    - fisher: <gh-stars count="5k"/> https://github.com/jorgebucaran/fisher
-    - oh-my-fish: <gh-stars count="7k"/> https://github.com/oh-my-fish/oh-my-fish
+    - fisher: <gh-stars count="6k"/> https://github.com/jorgebucaran/fisher
+    - oh-my-fish: <gh-stars count="9k"/> https://github.com/oh-my-fish/oh-my-fish
 
 ---
 
@@ -273,7 +273,7 @@ Extra, nice-to-have information
 
 started as fancy statusline for `vim`...
 
-- <gh-stars count="12k"/> https://github.com/powerline/powerline
+- <gh-stars count="13k"/> https://github.com/powerline/powerline
 - good-looking default settings
   - shortens `$PWD`
   - adds git status
@@ -320,7 +320,7 @@ simple prompt
 
 the new kid on the block
 
-- <gh-stars count="16k"/> https://github.com/starship/starship
+- <gh-stars count="33k"/> https://github.com/starship/starship
 - cross-plattform, cross-shell
 - stylish
 - great defaults for many environments
@@ -342,7 +342,7 @@ the new kid on the block
 
 terminal-independent shell UI
 
-- <gh-stars count="21k"/> https://github.com/tmux/tmux
+- <gh-stars count="28k"/> https://github.com/tmux/tmux
 - terminal multiplexer
 - "tabs" and "split screen" features: terminal independent
 - detachable sessions
@@ -379,7 +379,7 @@ terminal-independent shell UI
 
 Smooth git handover
 
-- <gh-stars count="~0.5k"/> https://mob.sh/
+- <gh-stars count="1k"/> https://mob.sh/
 - remote ensemble or pair programming using screen sharing
 
 <img
@@ -406,7 +406,7 @@ mob done
 
 file explorer
 
-- <gh-stars count="9k"/> https://ranger.github.io
+- <gh-stars count="13k"/> https://ranger.github.io
 - 2 layout options
     - miller columns ("mac" style)
     - multipane (similar to Midnight commander)
@@ -448,7 +448,7 @@ layout: two-cols
 
 man pages can be difficult
 
-- <gh-stars count="33k"/> https://tldr.sh/
+- <gh-stars count="44k"/> https://tldr.sh/
 - tldr: implemented in many languages (js, ruby, python, perl, haskell, etc)
 - Demo: `ln`, `tar`, `scp`
 
@@ -485,7 +485,7 @@ man pages can be difficult
 
 an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're working on right now**
 
-- <gh-stars count="2k"/> https://github.com/cantino/mcfly
+- <gh-stars count="5k"/> https://github.com/cantino/mcfly
 - category: history search
 
 > McFly replaces your default <kbd>Ctrl R</kbd> shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network.
@@ -496,7 +496,7 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 
 `cat` & `less` with syntax highlighting
 
-- <gh-stars count="17k"/> https://github.com/sharkdp/bat
+- <gh-stars count="40k"/> https://github.com/sharkdp/bat
 - hint: can be used as preview by `ranger`...
 - category: file preview
 
@@ -514,7 +514,7 @@ Demo:
 
 very fast `grep` replacement
 
-- <gh-stars count="25k"/> https://github.com/BurntSushi/ripgrep
+- <gh-stars count="37k"/> https://github.com/BurntSushi/ripgrep
 - `ripgrep` recursively searches directories for a regex pattern
 - sensible defaults: respect `.gitignore`, ignores hidden files & folders
 - command: `rg`
@@ -537,7 +537,7 @@ Demo:
 
 ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite (!), etc
 
-- <gh-stars count="3k"/> https://github.com/phiresky/ripgrep-all
+- <gh-stars count="5k"/> https://github.com/phiresky/ripgrep-all
 - command: `rga`
 - faster than `pdfgrep` (see website for a benchmark)
 - category: search
@@ -554,7 +554,7 @@ rga Vladimir
 
 interactive fuzzy search
 
-- <gh-stars count="36k"/> https://github.com/junegunn/fzf
+- <gh-stars count="51k"/> https://github.com/junegunn/fzf
 - pipe any line based input to fzf: Example `find * -type f | fzf`
 - good integration with other tools
 - `Alt+c`: quick `cd` navigation
@@ -587,7 +587,7 @@ cat slides.md | fzf
 
 simple alternative to `find`
 
-- <gh-stars count="17k"/> https://github.com/sharkdp/fd
+- <gh-stars count="27k"/> https://github.com/sharkdp/fd
 - "The command name is 50% shorter than `find`"
 - Convenient syntax `fd PATTERN` (instead of `find -iname '*PATTERN*'`)
 - Sensible defaults: `.gitignore`, ignore hidden files/folders
@@ -603,7 +603,7 @@ image: /screencasts/out2c.gif
 
 benchmarking tool
 
-- <gh-stars count="7k"/> https://github.com/sharkdp/hyperfine
+- <gh-stars count="15k"/> https://github.com/sharkdp/hyperfine
 
 ```bash
 # comparing `fd` with `find`
@@ -624,7 +624,7 @@ hyperfine --warmup 3 'fd -e jpg -uu' 'find -iname "*.jpg"'
 
 monitor any kind of "copy"
 
-- <gh-stars count="5k"/> https://github.com/Xfennec/progress
+- <gh-stars count="6k"/> https://github.com/Xfennec/progress
 - attach to any kind of copy, even after the fact
 - category: monitoring
 
@@ -645,7 +645,7 @@ unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permission
 
 interactive REPL for shell piping
 
-- <gh-stars count="7k"/> https://github.com/akavel/up
+- <gh-stars count="8k"/> https://github.com/akavel/up
 - interactive piping
 - instant live preview
 - category: search, file manipulation, interactive
@@ -667,7 +667,7 @@ interactive REPL for shell piping
 
 Rainbows and unicorns
 
-- <gh-stars count="4k"/> https://github.com/busyloop/lolcat
+- <gh-stars count="5k"/> https://github.com/busyloop/lolcat
 - category: fun, unix porn
 
 <img
@@ -708,7 +708,7 @@ echo -e "ttyd\nshare your terminal over the web" | boxes -d nuke -a c
 
 when the tv team comes in your office
 
-- <gh-stars count="4k"/> https://github.com/bartobri/no-more-secrets
+- <gh-stars count="5k"/> https://github.com/bartobri/no-more-secrets
 - pipe something to `nms` or just run `sneakers`
 - category: fun, unix porn
 
@@ -735,7 +735,7 @@ when the tv team comes in your office
 
 # sl <openmoji-unicorn style="display:inline"/>
 
-- <gh-stars count="2k"/> https://github.com/mtoyoda/sl
+- <gh-stars count="3k"/> https://github.com/mtoyoda/sl
 - typo `sl` (instead of `ls`) -> show steam locomotive
 - can we pipe it to `lolcat`? of course
 - category: fun, unix porn
@@ -751,7 +751,7 @@ when the tv team comes in your office
 
 GitHub CLI
 
-- <gh-stars count="23k"/> https://github.com/cli/cli
+- <gh-stars count="32k"/> https://github.com/cli/cli
 - create repos
 - create PRs
 - view issues
@@ -763,7 +763,7 @@ GitHub CLI
 
 fix common typos / mistakes
 
-- <gh-stars count="62k"/> https://github.com/nvbn/thefuck
+- <gh-stars count="77k"/> https://github.com/nvbn/thefuck
 - example: pushing a newly created git branch
 - category: productivity
 
@@ -771,7 +771,7 @@ fix common typos / mistakes
 
 # patat
 
-- <gh-stars count="1k"/> https://github.com/jaspervdj/patat
+- <gh-stars count="2k"/> https://github.com/jaspervdj/patat
 - nerdy slides in your shell
 - runs in a terminal (similar to `reveal-js`/`sli.dev` for the browser)
 - Pandoc syntax (f. ex. markdown)
@@ -797,7 +797,7 @@ Required: font providing all symbols
 
 ## colorls <lightbulb/>
 
-- <gh-stars count="3k"/> https://github.com/athityakumar/colorls
+- <gh-stars count="4k"/> https://github.com/athityakumar/colorls
 - category: unix porn
 
 <img
@@ -809,7 +809,7 @@ Required: font providing all symbols
 
 ## lsd
 
-- <gh-stars count="5k"/> https://github.com/Peltoche/lsd
+- <gh-stars count="9k"/> https://github.com/Peltoche/lsd
 - alternative to `colorls`
 
 ---
