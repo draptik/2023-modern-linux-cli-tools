@@ -557,6 +557,7 @@ interactive fuzzy search
 - <gh-stars count="36k"/> https://github.com/junegunn/fzf
 - pipe any line based input to fzf: Example `find * -type f | fzf`
 - good integration with other tools
+- `Alt+c`: quick `cd` navigation
 - nice helper methods for
     - files & directories `cd **<TAB>`
     - kill `kill -9 <TAB>`
