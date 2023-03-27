@@ -8,6 +8,7 @@
 - [xkcd.xsh](https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310?utm_source=pocket_saves)
 - [git-fuzzy](https://github.com/bigH/git-fuzzy)
 - new alternatives to `ncdu`
+- clifm vs ranger
 
 ## Navigation / Search
 
