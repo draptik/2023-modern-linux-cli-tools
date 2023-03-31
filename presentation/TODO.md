@@ -9,6 +9,8 @@
 - [git-fuzzy](https://github.com/bigH/git-fuzzy)
 - new alternatives to `ncdu`
 - clifm vs ranger
+- broot
+- "retro terminal"
 
 ## Navigation / Search
 
