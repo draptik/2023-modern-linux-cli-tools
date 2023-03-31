@@ -10,7 +10,7 @@
 - new alternatives to `ncdu`
 - clifm vs ranger
 - broot
-- "retro terminal"
+- "retro terminal": cool retro term
 
 ## Navigation / Search
 
