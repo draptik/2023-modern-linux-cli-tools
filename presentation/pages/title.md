@@ -1,0 +1,31 @@
+# modern linux cli tools Template from embedded
+
+Patrick Drechsler
+
+<img
+  class="absolute top-20 left-10 w-xs"
+  src="/images/mat-standard-rgb.png"
+/>
+
+<img
+  class="absolute top-0 right-0 h-full"
+  src="/images/triangles.png"
+/>
+
+
+<img
+  class="absolute bottom-10 right-120 w-40"
+  src="/images/dvoc_big-icon.png"
+/>
+
+<style>
+h1 {
+    font-family: Inter;
+    background-image: none;
+    color: black;
+    padding-left: 0;
+}
+p {
+    color: black;
+}
+</style>

@@ -4,45 +4,7 @@ title: 'modern linux cli tools'
 # real width of the canvas, unit in px
 canvasWidth: 980
 
-layout: cover
----
-
-# modern linux cli tools
-
-Patrick Drechsler
-
-<img
-  class="absolute top-20 left-10 w-xs"
-  src="/images/mat-standard-rgb.png"
-/>
-
-<img
-  class="absolute top-0 right-0 h-full"
-  src="/images/triangles.png"
-/>
-
-
-<img
-  class="absolute bottom-10 right-120 w-40"
-  src="/images/dvoc_big-icon.png"
-/>
-
-<style>
-h1 {
-    font-family: Inter;
-    background-image: none;
-    color: black;
-    padding-left: 0;
-}
-p {
-    color: black;
-}
-</style>
-
----
-layout: image-right-with-caption
-image: /images/HappyTowelDay.jpg
-imageCaption: "https://commons.wikimedia.org/wiki/File:HappyTowelDay.jpg"
+src: ./pages/title.md
 ---
 
 # "modern" is relative...
