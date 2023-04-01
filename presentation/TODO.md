@@ -1,4 +1,12 @@
-# New Tools
+# TODOS
+
+## Updates to existing tools
+
+### McFly
+
+It shows how long ago the command was last invoked
+
+## New Tools
 
 - [miller](https://miller.readthedocs.io/en/latest/)
 - [miller vs jq](https://dev.to/barakplasma/data-manipulation-jq-vs-miller-4g89)
@@ -12,26 +20,26 @@
 - broot
 - "retro terminal": cool retro term
 
-## Navigation / Search
+### Navigation / Search
 
 - [So you've installed `fzf`. Now what?](https://andrew-quinn.me/fzf)
 
-## Data manipulation
+### Data manipulation
 
-### jq
+#### jq
 
-### jqp
+#### jqp
 
-### Miller
+#### Miller
 
-## Git tools
+### Git tools
 
-### lazygit
+#### lazygit
 
-### forgit
+#### forgit
 
-### git-fuzzy
+#### git-fuzzy
 
-## Fun
+### Fun
 
-### xkcd.sh
+#### xkcd.sh
