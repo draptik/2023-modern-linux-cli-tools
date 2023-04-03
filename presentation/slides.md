@@ -8,7 +8,7 @@ src: ./pages/title.md
 ---
 
 ---
-layout: image-right-with-caption
+layout: image-right
 image: /images/HappyTowelDay.jpg
 imageCaption: "https://commons.wikimedia.org/wiki/File:HappyTowelDay.jpg"
 ---
