@@ -38,7 +38,6 @@ jobs:
             cd ${{ env.PRESENTATION_FOLDER }}
             slidev build --base '/${{ env.TARGET_REPO_NAME }}'
 
-      # Requires (1) global account setup with PAT https://stackoverflow.com/a/68781050 and (2) secret setup using that PAT in this repo (`secrets.MATHEMA_TOKEN`)
       - name: Deploy to target repository
         uses: JamesIves/github-pages-deploy-action@v4
         with:
