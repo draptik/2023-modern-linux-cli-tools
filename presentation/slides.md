@@ -9,7 +9,7 @@ src: ./pages/title.md
 
 ---
 layout: image-right
-image: '/images/HappyTowelDay.jpg'
+image: './images/HappyTowelDay.jpg'
 ---
 
 # "modern" is relative...
