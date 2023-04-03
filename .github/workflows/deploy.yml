@@ -1,0 +1,48 @@
+name: Deploy pages
+on:
+  push:
+    branches:
+      - dotnetdayfranken
+
+jobs:
+  deploy:
+
+    env:
+      PRESENTATION_FOLDER: 'presentation'
+      TARGET_REPO_NAME: '2023-04-dotnetdayfranken-modern-linux-cli-tools'
+      TARGET_GITHUB_OWNER: 'MATHEMA-GmbH'
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+            cd ${{ env.PRESENTATION_FOLDER }}
+            npm install
+
+      - name: Install slidev
+        run:  |
+            cd ${{ env.PRESENTATION_FOLDER }}
+            npm i -g @slidev/cli
+
+      # Ensure to set the base directory to the current branch name
+      - name: Build
+        run: |
+            cd ${{ env.PRESENTATION_FOLDER }}
+            slidev build --base '/${{ env.TARGET_REPO_NAME }}'
+
+      # Requires (1) global account setup with PAT https://stackoverflow.com/a/68781050 and (2) secret setup using that PAT in this repo (`secrets.MATHEMA_GH_TOKEN`)
+      - name: Deploy to target repository
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          single-commit: true
+          folder: ${{ env.PRESENTATION_FOLDER }}/dist # The folder the action should deploy
+          repository-name: '${{ env.TARGET_GITHUB_OWNER }}/${{ env.TARGET_REPO_NAME }}'
+          token: ${{ secrets.MATHEMA_GH_TOKEN }}
