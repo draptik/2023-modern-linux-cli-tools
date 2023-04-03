@@ -105,7 +105,7 @@ VS Code is cool, but it is not a CLI tool
     - pick one and become fluent
 - Learn basic cli commands: `cd`, `ls`, `cat`, `less`, `find`, `grep`, `sed`, `tail`, `awk`, `dd`, `rsync`, ...
 - Combine using pipes and redirection
-- 
+
 </div>
 <div>
 <div grid="~ cols-2 gap-4">
@@ -532,9 +532,6 @@ interactive fuzzy search
     - host names `ssh **<TAB>`
     - environment variables & aliases `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
 - category: search
-- Demos:
-    - find files and select them
-    - search a text file
 
 <!--
 
@@ -564,7 +561,7 @@ simple alternative to `find`
 
 ---
 layout: screencast
-image: /screencasts/out2c.gif
+image: './screencasts/out2c.gif'
 ---
 
 # hyperfine
