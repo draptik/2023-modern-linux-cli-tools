@@ -1,7 +1,4 @@
 name: Deploy pages
-permissions:
-  contents: write
-
 on:
   push:
     branches:
