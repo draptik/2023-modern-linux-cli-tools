@@ -14,8 +14,8 @@ Patrick Drechsler
 
 
 <img
-  class="absolute bottom-10 right-120 w-40"
-  src="/images/dvoc_big-icon.png"
+  class="absolute bottom-10 right-120 w-50"
+  src="/images/logo-ddf.png"
 />
 
 <style>
