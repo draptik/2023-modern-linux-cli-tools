@@ -1,26 +1,26 @@
 /* Font for main headline(s) */
 @font-face {
-    font-family: DroidSerif; src: url('./fonts/droid-serif/DroidSerif-Regular.ttf');
+    font-family: DroidSerif; src: url('/fonts/droid-serif/DroidSerif-Regular.ttf');
 }
 
 /* Font for other headlines?? */
 @font-face {
-    font-family: InterSemibold; src: url('./fonts/inter/Inter-SemiBold.ttf');
+    font-family: InterSemibold; src: url('/fonts/inter/Inter-SemiBold.ttf');
 }
 
 /* Font for quotes */
 @font-face {
-    font-family: DroidSerifItalic; src: url('./fonts/droid-serif/DroidSerif-Italic.ttf');
+    font-family: DroidSerifItalic; src: url('/fonts/droid-serif/DroidSerif-Italic.ttf');
 }
   
 /* Font for normal text */
 @font-face {
-    font-family: Inter; src: url('./fonts/inter/Inter-Regular.ttf');
+    font-family: Inter; src: url('/fonts/inter/Inter-Regular.ttf');
 }
   
 /* Font for code samples */
 @font-face {
-    font-family: JetBrains; src: url('./fonts/jetbrains-mono/JetBrains Mono Regular Nerd Font Complete Mono.ttf');
+    font-family: JetBrains; src: url('/fonts/jetbrains-mono/JetBrains Mono Regular Nerd Font Complete Mono.ttf');
 }
   
   
