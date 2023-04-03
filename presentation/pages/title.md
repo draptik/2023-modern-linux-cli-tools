@@ -1,4 +1,4 @@
-# modern linux cli tools Template from embedded
+# modern linux cli tools
 
 Patrick Drechsler
 
@@ -19,7 +19,7 @@ Patrick Drechsler
 />
 
 <style>
-h1 {
+.slidev-layout.cover h1 {
     font-family: Inter;
     background-image: none;
     color: black;
