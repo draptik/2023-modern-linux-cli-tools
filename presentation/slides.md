@@ -9,8 +9,8 @@ src: ./pages/title.md
 
 ---
 layout: image-right-with-caption
-image: /images/HappyTowelDay.jpg
-imageCaption: "https://commons.wikimedia.org/wiki/File:HappyTowelDay.jpg"
+image: './images/HappyTowelDay.jpg'
+imageCaption: 'https://commons.wikimedia.org/wiki/File:HappyTowelDay.jpg'
 ---
 
 # "modern" is relative...
