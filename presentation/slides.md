@@ -8,8 +8,9 @@ src: ./pages/title.md
 ---
 
 ---
-layout: image-right
+layout: image-right-with-caption
 image: './images/HappyTowelDay.jpg'
+imageCaption: 'foo'
 ---
 
 # "modern" is relative...
