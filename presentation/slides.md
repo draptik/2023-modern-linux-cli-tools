@@ -391,6 +391,24 @@ Demo:
 
 ---
 
+# clifm
+
+TODO
+
+- `ranger` alternative
+- category: navigation, file system
+
+---
+
+# nnn
+
+TODO
+
+- `ranger` alternative
+- category: navigation, file system
+
+---
+
 # Emacs: wdired-mode
 
 - for Emacs users
