@@ -8,14 +8,12 @@ src: ./pages/title.md
 ---
 
 ---
-layout: image-right-with-caption
-image: './images/HappyTowelDay.jpg'
-imageCaption: 'https://commons.wikimedia.org/wiki/File:HappyTowelDay.jpg'
+layout: two-cols
 ---
 
 # "modern" is relative...
 
-**Douglas Adams**
+Douglas Adams
 
 I've come up with a set of rules that describe our reactions to technologies:
 
@@ -27,6 +25,18 @@ I've come up with a set of rules that describe our reactions to technologies:
 
 </v-clicks>
 
+::right::
+
+<img
+  class="absolute top-0 rounded-full"
+  src="/images/kids-tablet-unsplash.jpg"
+/>
+<img
+  class="absolute bottom-0 rounded-full"
+  src="/images/telephone-old-unsplash.jpg"
+/>
+
+
 <style>
 h1 {
     font-size: 26px;
@@ -34,6 +44,12 @@ h1 {
 li {
   line-height: 130% !important;
   margin: 10px 0;
+}
+strong {
+  background-color: lightgrey;
+}
+img {
+  width: 350px;
 }
 </style>
 
@@ -53,6 +69,7 @@ TODOs:
 - linux desktop CLI users
 - linux admins
 - docker users
+- devops/cloud users
 - ...
 
 ```
@@ -84,6 +101,7 @@ TODOs:
 # Why? Improvements to...
 
 - **productivity**
+  - one cli command is better than multiple clicks in a GUI
 
 - **optics**
     - "unix porn" (`PS1`, `ls`, ...)
@@ -660,33 +678,6 @@ Rainbows and unicorns
 
 ---
 
-# ttyd
-
-- https://tsl0922.github.io/ttyd/
-
-```bash
-            _ ._  _ , _ ._
-          (_ ' ( `  )_  .__)
-        ( (  (    )   `)  ) _)
-       (__ (_   (_ . _) _) ,__)
-           `~~`\ ' . /`~~`
-           ,::: ;   ; :::,
-          ':::::::::::::::'
- ______________/_ __ \_____________
-|                                  |
-|               ttyd               |
-| share your terminal over the web |
-|__________________________________|
-```
-
-- category: network, dangerous
-
-<!--
-echo -e "ttyd\nshare your terminal over the web" | boxes -d nuke -a c
--->
-
----
-
 # no-more-secrets <openmoji-unicorn style="display:inline"/>
 
 when the tv team comes in your office
@@ -735,7 +726,8 @@ when the tv team comes in your office
 GitHub CLI
 
 - <gh-stars count="32k"/> https://github.com/cli/cli
-- create repos
+- Example: push current git folder to new private github repo:
+  - `gh repo create --source . --push --private`
 - create PRs
 - view issues
 - ...
@@ -750,15 +742,10 @@ fix common typos / mistakes
 - example: pushing a newly created git branch
 - category: productivity
 
----
-
-# patat
-
-- <gh-stars count="2k"/> https://github.com/jaspervdj/patat
-- nerdy slides in your shell
-- runs in a terminal (similar to `reveal-js`/`sli.dev` for the browser)
-- Pandoc syntax (f. ex. markdown)
-- category: presentation, slides, unix porn
+<img
+  class="absolute bottom-0 right-0 w-150"
+  src="/images/thefuck.gif"
+/>
 
 ---
 
