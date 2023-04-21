@@ -390,7 +390,7 @@ mob done
 
 # ranger
 
-file explorer
+file explorer / manager
 
 - <gh-stars count="13k"/> https://ranger.github.io
 - 2 layout options
@@ -408,22 +408,42 @@ Demo:
 -->
 
 ---
+layout: two-cols
+---
 
 # clifm
 
-TODO
+another terminal file manager
+
+> Most terminal file managers out there (if not all) are built using the TUI design principles, much like the superb `Midnight Commander` and `Ranger`. But clifm is built rather having the CLI design principles in mind: do not navigate through a big menu of files, just type it!, exactly as you do in your regular shell, but easier and> faster.
+>
+> For this reason, clifm does not need to be better: it's just different!
 
 - `ranger` alternative
 - category: navigation, file system
+
+::right::
+
+<img
+  src="/screencasts/clifm.gif"
+/>
+
 
 ---
 
 # nnn
 
-TODO
+another terminal file manager
+
+> nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
 
 - `ranger` alternative
 - category: navigation, file system
+
+<img
+  class="absolute bottom-10 right-5 w-100"
+  src="/screencasts/nnn.gif"
+/>
 
 ---
 
@@ -448,13 +468,14 @@ Demo:
 layout: two-cols
 ---
 
-# tldr
+# tldr <lightbulb/>
 
 man pages can be difficult
 
 - <gh-stars count="44k"/> https://tldr.sh/
-- tldr: implemented in many languages (js, ruby, python, perl, haskell, etc)
-- Demo: `ln`, `tar`, `scp`
+- clients implemented in many languages 
+  - js, ruby, python, perl, haskell, etc.
+- shared user-contributed knowledge-base
 
 ::right::
 
@@ -496,7 +517,7 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 
 ---
 
-# bat
+# bat <lightbulb/>
 
 `cat` & `less` with syntax highlighting
 
@@ -626,7 +647,7 @@ hyperfine --warmup 3 'fd -e jpg -uu' 'find -iname "*.jpg"'
 monitor any kind of "copy"
 
 - <gh-stars count="6k"/> https://github.com/Xfennec/progress
-- attach to any kind of copy, even after the fact
+- attach to any kind of copy, even after the fact (!)
 - category: monitoring
 
 ``` bash
@@ -811,6 +832,8 @@ interactive `df` alternative
 
 # monitoring
 
+Everything *top
+
 - htop
 - apachetop
 - ngxtop
@@ -824,6 +847,21 @@ interactive `df` alternative
 <!-- 
 - show top and htop
 -->
+
+---
+
+# lazy
+
+Everything lazy*
+
+- lazydocker
+- lazygit
+
+
+<img
+  class="absolute bottom-0 right-5 w-175"
+  src="/screencasts/lazydocker.gif"
+/>
 
 ---
 
@@ -854,10 +892,7 @@ interactive `df` alternative
 </div>
 
 ---
-
-# Slides
-
-- https://github.com/MATHEMA-GmbH/2021-06-modern-linux-command-line-tools
+src: ./pages/slide-link.md
 
 ---
 
