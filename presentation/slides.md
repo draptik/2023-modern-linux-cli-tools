@@ -575,7 +575,7 @@ rga Vladimir
 
 ---
 
-# fzf
+# fzf <lightbulb/>
 
 interactive fuzzy search
 
@@ -751,7 +751,6 @@ GitHub CLI
   - `gh repo create --source . --push --private`
 - create PRs
 - view issues
-- ...
 
 ---
 
@@ -850,7 +849,7 @@ Everything *top
 
 ---
 
-# lazy
+# lazy*
 
 Everything lazy*
 
@@ -892,9 +891,6 @@ Everything lazy*
 </div>
 
 ---
-src: ./pages/slide-link.md
-
----
 
 # I forgot your favorite tool?
 
@@ -926,6 +922,12 @@ src: ./pages/slide-link.md
 
 <style>
 li {
-    font-size: 0.9rem
+    font-size: 0.9rem;
 }
 </style>
+
+---
+
+# bla
+
+foo
