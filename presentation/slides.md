@@ -4,7 +4,7 @@ title: 'modern linux cli tools'
 # real width of the canvas, unit in px
 canvasWidth: 980
 
-src: ./pages/title.md
+src: ./pages/00-title.md
 ---
 
 ---
@@ -936,3 +936,7 @@ li {
     font-size: 0.9rem;
 }
 </style>
+
+---
+src: ./pages/99-end.md
+---
