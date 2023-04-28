@@ -829,6 +829,17 @@ interactive `df` alternative
 
 ---
 
+# chatGPT-shell-cli
+
+2023 - no presentation without the current hype: Chat-GPT, AI
+
+- <gh-stars count="414"/> https://github.com/0xacx/chatGPT-shell-cli
+- Chat-GPT client without any dependencies
+- like most clients: requires API-Key
+- command: `chatgpt`
+
+---
+
 # monitoring
 
 Everything *top
@@ -925,9 +936,3 @@ li {
     font-size: 0.9rem;
 }
 </style>
-
----
-
-# bla
-
-foo
