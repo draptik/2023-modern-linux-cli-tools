@@ -53,15 +53,6 @@ img {
 }
 </style>
 
-<!--
-
-TODOs:
-
-- other image?
-- font: italic
-- line-spacing: remove extra line spacing in within bullet points
- -->
-
 ---
 
 # Target audience
@@ -821,6 +812,12 @@ interactive `df` alternative
 - ascii art boxes
 - show all templates: `boxes -l`
 - category: unix porn
+
+
+<img
+  class="absolute bottom-30 right-30 w-100"
+  src="/images/boxes.png"
+/>
 
 <!-- 
 - echo "Hello World!" | boxes -d peek
