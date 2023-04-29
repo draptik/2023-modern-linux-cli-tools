@@ -875,6 +875,18 @@ Everything lazy*
 
 ---
 
+# Why didn't I show this presentation in a shell?
+
+I've done it 😇
+
+- <gh-stars count="1.9k"/> https://github.com/jaspervdj/patat
+  - Haskell-based
+  - plain CLI
+- no image support
+- no fallback
+
+---
+
 # Resources
 
 <div grid="~ cols-2 gap-4">
