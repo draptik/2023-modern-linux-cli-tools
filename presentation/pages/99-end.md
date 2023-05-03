@@ -10,7 +10,7 @@
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2023-05-mathemacampus-modern-linux-cli-tools
+- https://draptik.github.io/2023-05-magdeburger-devdays-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
