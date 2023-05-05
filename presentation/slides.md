@@ -188,6 +188,26 @@ VS Code is cool, but it is not a CLI tool
   src="/images/terminal-with-image-support.png"
 />
 
+---
+
+## terminal - Retro style <openmoji-unicorn style="display:inline"/>
+
+- cool-retro-term: <gh-stars count="18k"/> https://github.com/Swordfish90/cool-retro-term
+
+<img
+  class="absolute bottom-50 left-10"
+  src="/images/retro-terminal1.gif"
+/>
+
+<img
+  class="absolute bottom-25 left-80"
+  src="/images/retro-terminal2.gif"
+/>
+
+<img
+  class="absolute bottom-5 right-5"
+  src="/images/retro-terminal3.gif"
+/>
 
 ---
 
