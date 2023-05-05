@@ -3,8 +3,8 @@
 Patrick Drechsler
 
 <img
-  class="absolute top-20 left-10 w-xs"
-  src="/images/mat-standard-rgb.png"
+  class="absolute top-10 left-10 w-xs"
+  src="/images/mathemacampus-logo.png"
 />
 
 <img
@@ -12,11 +12,11 @@ Patrick Drechsler
   src="/images/triangles.png"
 />
 
-
+<!-- 
 <img
   class="absolute bottom-10 right-120 w-50"
   src="/images/logo-magdeburger-devdays-2023.png"
-/>
+/> -->
 
 <style>
 .slidev-layout.cover h1 {
