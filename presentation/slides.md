@@ -179,13 +179,13 @@ VS Code is cool, but it is not a CLI tool
 
 **What is the best terminal?**
 
-- use your default
+- start by using your default terminal
 
 **but think about enriching your output!**
 
-- Unicode, Emojis, Fonts, Image support (!)
 - Emojis: <noto-thumbs-up class="inline"/> <noto-check-mark-button class="inline"/> <noto-collision class="inline"/> <noto-victory-hand class="inline"/> 
   <noto-pile-of-poo class="inline"/> <noto-speech-balloon class="inline"/> <noto-zany-face class="inline"/> € ★
+- Unicode, Emojis, Fonts, Image support (!)
 
 <img
   class="absolute bottom-20 right-4 w-130 image-with-border "
