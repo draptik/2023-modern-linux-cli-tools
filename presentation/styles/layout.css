@@ -63,3 +63,9 @@
         font-family: Inter;
     }
 }
+
+.image-with-border {
+    border-width: 1px;
+    border-color: lightgray;
+
+}

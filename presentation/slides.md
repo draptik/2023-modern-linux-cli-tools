@@ -125,13 +125,14 @@ VS Code is cool, but it is not a CLI tool
 </div>
 
 ---
-layout: image
-image: "/images/pets-vs-cattle.png"
----
 
-<!-- # Pets vs Cattle
+# Disclaimer
 
-<img src="/images/pets-vs-cattle.png" width="120" /> -->
+.
+
+<img
+  class="absolute top-20 right-4 w-220"
+  src="/images/pets-vs-cattle.png" />
 
 ---
 
@@ -180,19 +181,18 @@ image: "/images/pets-vs-cattle.png"
 
 - use your default
 
-**Unicode, Emojis, Fonts, Image support (!)**
+**but think about enriching your output!**
 
-- but think about enriching your output!
-
+- Unicode, Emojis, Fonts, Image support (!)
 - Emojis: <noto-thumbs-up class="inline"/> <noto-check-mark-button class="inline"/> <noto-collision class="inline"/> <noto-victory-hand class="inline"/> 
   <noto-pile-of-poo class="inline"/> <noto-speech-balloon class="inline"/> <noto-zany-face class="inline"/> € ★
 
 <img
-  class="absolute bottom-20 right-0 w-130"
+  class="absolute bottom-20 right-4 w-130 image-with-border "
   src="/images/terminal-with-icons.png"
 />
 <img
-  class="absolute top-20 right-4 w-130"
+  class="absolute top-20 right-4 w-130 image-with-border "
   src="/images/terminal-with-image-support.png"
 />
 
