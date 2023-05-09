@@ -124,6 +124,14 @@ VS Code is cool, but it is not a CLI tool
 </div>
 </div>
 
+---
+layout: image
+image: "/images/pets-vs-cattle.png"
+---
+
+<!-- # Pets vs Cattle
+
+<img src="/images/pets-vs-cattle.png" width="120" /> -->
 
 ---
 
