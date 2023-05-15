@@ -17,6 +17,7 @@
     "@iconify-json/mdi": "^1.1.33",
     "@iconify-json/noto": "^1.1.5",
     "@iconify-json/openmoji": "^1.1.11",
-    "@iconify-json/simple-icons": "^1.1.27"
+    "@iconify-json/simple-icons": "^1.1.27",
+    "playwright-chromium": "^1.33.0"
   }
 }
