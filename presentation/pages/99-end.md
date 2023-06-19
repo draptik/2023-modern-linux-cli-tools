@@ -10,9 +10,9 @@
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2023-05-magdeburger-devdays-modern-linux-cli-tools
+- https://draptik.github.io/2023-06-cloudland-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-mddevdays.png"
+  src="/images/slides-cloudland.png"
 />
