@@ -636,6 +636,35 @@ simple alternative to `find`
 - category: search
 
 ---
+layout: two-cols
+---
+
+# jq & Co
+
+## jq
+
+- lightweight and flexible command-line JSON processor
+- <gh-stars count="25k"/> https://github.com/jqlang/jq
+
+
+## jqp
+
+- TUI for `jq`
+- <gh-stars count="1.8k"/> https://github.com/noahgorstein/jqp
+
+::right::
+
+## miller
+
+- similar to `jq`, but also for CSV, TSV, JSON, XML, etc.
+- <gh-stars count="7k"/> https://github.com/johnkerl/miller
+
+## fq
+
+- `jq`, but for binary data
+- <gh-stars count="8k"/> https://github.com/wader/fq
+
+---
 layout: screencast
 image: './screencasts/out2c.gif'
 ---
@@ -951,7 +980,8 @@ I've done it 😇
 <div grid="~ cols-2 gap-4">
 <div>
 
-- jq (sed for json) https://stedolan.github.io/jq/
+- git-fuzzy https://github.com/bigH/git-fuzzy
+- forgit https://github.com/wfxr/forgit
 - mosh (robust replacement for ssh) https://mosh.org/
 - fish_config (web-based configuration tool for fish shell) https://fishshell.com/docs/current/commands.html#fish_config
 - xclip (cli to X clipboard) 403 stars https://github.com/astrand/xclip
