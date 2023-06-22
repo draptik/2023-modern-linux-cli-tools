@@ -373,7 +373,7 @@ terminal-independent shell UI
 
 `tmux`-wrapper for non-vim users
 
-- (mirrored repo: ~500 stars) http://byobu.org
+- (mirrored repo: ~500 stars) https://www.byobu.org/
 - Keybindings `F1` - `F12`
 - Sensible defaults (layout, info line)
 - category: productivity
