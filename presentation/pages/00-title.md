@@ -14,8 +14,8 @@ Patrick Drechsler
 
 
 <img
-  class="absolute bottom-20 right-90 w-100"
-  src="/images/logo_cloudland.svg"
+  class="absolute bottom-10 right-120 w-50"
+  src="/images/socrates-franken.png"
 />
 
 <style>
