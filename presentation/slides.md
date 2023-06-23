@@ -291,32 +291,6 @@ started as fancy statusline for `vim`...
   src="/images/powerline-shell-example.png"
 />
 
-
----
-
-<!-- shell / PS1 -->
-
-# PS1: liquidprompt
-
-simple prompt
-
-- <gh-stars count="4k"/> https://github.com/nojhan/liquidprompt
-- simpler default compared to Powerline
-  - shortens `$PWD`
-  - adds git status
-  - can be combined with Powerline
-- available for `zsh`, `bash`, etc
-- category: unix-porn
-
-<img
-  class="absolute bottom-40 right-20"
-  src="/images/liquidprompt-default-med.png"
-/>
-<img
-  class="absolute bottom-20 right-20"
-  src="/images/liquidprompt-powerline-med.png"
-/>
-
 ---
 
 <!-- shell / PS1 -->
