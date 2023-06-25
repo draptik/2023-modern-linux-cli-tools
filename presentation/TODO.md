@@ -4,6 +4,8 @@
 
 ## New Tools
 
+- [gpt4free](https://github.com/xtekky/gpt4free) free (!) chatgpt cli client
+- [Fig](https://fig.io/) Autocomplete on-steroids
 - [miller](https://miller.readthedocs.io/en/latest/)
 - [miller vs jq](https://dev.to/barakplasma/data-manipulation-jq-vs-miller-4g89)
 - [jpq - a TUI playground for exploring jq](https://github.com/noahgorstein/jqp)
