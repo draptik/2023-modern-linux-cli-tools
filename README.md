@@ -7,4 +7,4 @@ GitHub Actions
 - Branch magdeburger-devdays: https://draptik.github.io/2023-05-magdeburger-devdays-modern-linux-cli-tools
 - Branch cloudland: https://draptik.github.io/2023-06-cloudland-modern-linux-cli-tools/
 - Branch socrates-day-franken: https://draptik.github.io/2023-06-socrates-day-franken-cloudland-modern-linux-cli-tools/
-- Branch socrates-day-at (Linz): https://draptik.github.io/2023-09-socrates-day-at-cloudland-modern-linux-cli-tools/
+- Branch socrates-day-at (Linz): https://draptik.github.io/2023-09-socrates-day-at-modern-linux-cli-tools/
