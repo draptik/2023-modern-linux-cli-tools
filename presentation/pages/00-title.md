@@ -15,7 +15,7 @@ Patrick Drechsler
 
 <img
   class="absolute bottom-10 right-120 w-50"
-  src="/images/socrates-franken.png"
+  src="/images/kandddinsky.svg"
 />
 
 <style>
