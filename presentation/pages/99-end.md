@@ -10,9 +10,9 @@
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2023-09-socrates-day-at-modern-linux-cli-tools
+- https://draptik.github.io/2023-10-kandddinsky-openspace-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-socrates-day-at.png"
+  src="/images/slides-kandddinsky-openspace.png"
 />
