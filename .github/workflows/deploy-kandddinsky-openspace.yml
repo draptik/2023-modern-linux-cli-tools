@@ -9,7 +9,7 @@ jobs:
 
     env:
       PRESENTATION_FOLDER: 'presentation'
-      TARGET_REPO_NAME: '2023-09-kandddinsky-openspace-modern-linux-cli-tools'
+      TARGET_REPO_NAME: '2023-10-kandddinsky-openspace-modern-linux-cli-tools'
       TARGET_GITHUB_OWNER: 'draptik'
 
     runs-on: ubuntu-latest
