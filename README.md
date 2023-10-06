@@ -8,4 +8,5 @@ GitHub Actions
 - Branch cloudland: https://draptik.github.io/2023-06-cloudland-modern-linux-cli-tools/
 - Branch socrates-day-franken: https://draptik.github.io/2023-06-socrates-day-franken-cloudland-modern-linux-cli-tools/
 - Branch socrates-day-at (Linz): https://draptik.github.io/2023-09-socrates-day-at-modern-linux-cli-tools/
-- Branch kanddinsky-openspace:
+- Branch kanddinsky-openspace: https://draptik.github.io/2023-10-kandddinsky-openspace-modern-linux-cli-tools/
+
