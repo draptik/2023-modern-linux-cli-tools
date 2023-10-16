@@ -10,9 +10,9 @@
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2023-10-devops-camp-modern-linux-cli-tools
+- https://draptik.github.io/2023-10-digital-craftsmanship-nordoberpfalz-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-devops-camp.png"
+  src="/images/slides-digital-craftsmanship-nordoberpfalz.png"
 />

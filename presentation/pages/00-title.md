@@ -14,8 +14,8 @@ Patrick Drechsler
 
 
 <img
-  class="absolute bottom-10 right-120 w-50"
-  src="/images/dvoc_big-icon.png"
+  class="absolute bottom-5 right-120 w-40"
+  src="/images/digital-craftsmanship-nordoberpfalz-logo.png"
 />
 
 <style>
