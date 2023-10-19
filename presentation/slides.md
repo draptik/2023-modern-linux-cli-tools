@@ -219,6 +219,18 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
+# terminals
+
+modern alternatives
+
+not the topic of this talk, but...
+
+- kitty: <gh-stars count="20k"/> https://github.com/kovidgoyal/kitty
+- alacritty <gh-stars count="49k"/> https://github.com/alacritty/alacritty
+- wezterm <gh-stars count="10k"/> https://github.com/wez/wezterm
+
+---
+
 ## Popular shells
 
 - bash
@@ -227,30 +239,19 @@ VS Code is cool, but it is not a CLI tool
 - dash (embedded)
 
 ---
-layout: two-cols
----
 
-### bash
+# nushell: The new kid on the block
 
-- https://www.gnu.org/software/bash/
-- package manager
-    - bash-it: <gh-stars count="13k"/> https://github.com/Bash-it/bash-it
-    - oh-my-bash: <gh-stars count="4k"/> https://ohmybash.github.io
+Everything is data
 
-### zsh
+- keep an eye on it!
+  - <gh-stars count="26k"/> https://github.com/nushell/nushell
+- 100% **NOT** POSIX conform
 
-- https://www.zsh.org/
-- package manager
-    - oh-my-zsh: <gh-stars count="157k"/> https://ohmyz.sh
-
-::right::
-
-### fish: The new kid on the block
-
-- https://fishshell.com
-- package manager
-    - fisher: <gh-stars count="6k"/> https://github.com/jorgebucaran/fisher
-    - oh-my-fish: <gh-stars count="9k"/> https://github.com/oh-my-fish/oh-my-fish
+<img
+  class="absolute bottom-5 right-5 w-120"
+  src="/images/nushell.gif"
+/>
 
 ---
 
@@ -258,7 +259,7 @@ layout: two-cols
 
 # PS1
 
-PS1: alias for "prompt"
+PS1: alias for "prompt string 1"
 
 - default: `username@machinename:~/some/location $`
 - `$PWD` present working directory
@@ -300,10 +301,11 @@ started as fancy statusline for `vim`...
 the new kid on the block
 
 - <gh-stars count="33k"/> https://github.com/starship/starship
-- cross-plattform, cross-shell
+- cross-plattform, cross-shell (even Windows cmd.exe)
 - stylish
 - great defaults for many environments
 - easy to configure
+- can look like powerline
 - category: unix-porn
 
 <img
@@ -603,6 +605,7 @@ interactive fuzzy search
     - kill `kill -9 <TAB>`
     - host names `ssh **<TAB>`
     - environment variables & aliases `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
+- Things you can do with fzf: https://andrew-quinn.me/fzf
 - category: search
 
 <!--
