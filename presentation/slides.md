@@ -971,11 +971,13 @@ I've done it 😇
 - <mdi-reddit class="inline"/> r/unixporn
 - search for "**awesome-cli**"
 
+This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19 (CCC)](https://www.youtube.com/watch?v=8d8-PpcLc24&t=12s).
+
 </div>
 <div>
 
 <img
-  class="absolute top-5 right-70 w-xs"
+  class="absolute top-5 right-50 w-xs"
   src="/images/twitter-climagic.png"
 />
 <img
