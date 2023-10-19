@@ -1030,6 +1030,9 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - httpie (cli http client) 45k stars https://httpie.org/
 - http-prompt (cli http client) 7.6k stars http://http-prompt.com/
 - pywal (color schemes for terminal) 3.4k stars https://github.com/dylanaraps/pywal
+- ytfzf https://github.com/pystardust/ytfzf find YT videos and downloads them using youtube-dl
+- figlet http://www.figlet.org/ ascii art
+- toilet http://caca.zoy.org/wiki/toilet ascii art
 
 </div>
 <div>
@@ -1040,13 +1043,17 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - MapSCII (ascii google maps in the terminal) https://github.com/rastapasta/mapscii
 - alwaysontop (always move prompt to top of screen) 160 stars https://github.com/swirepe/alwaysontop
 - wttr.in (ascii weather report) https://github.com/chubin/wttr.in
+- git-fuzzy https://github.com/bigH/git-fuzzy
+- gpt4free https://github.com/xtekky/gpt4free
+- Fig https://fig.io/ Autocomplete on-steroids
+- xkcd.xsh https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310
 
 </div>
 </div>
 
 <style>
 li {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 </style>
 
