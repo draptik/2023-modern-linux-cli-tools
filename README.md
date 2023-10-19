@@ -10,3 +10,4 @@ GitHub Actions
 - Branch socrates-day-at (Linz): https://draptik.github.io/2023-09-socrates-day-at-modern-linux-cli-tools/
 - Branch kanddinsky-openspace: https://draptik.github.io/2023-10-kandddinsky-openspace-modern-linux-cli-tools/
 - Branch digital-craftsmanship-nordoberpfalz: https://draptik.github.io/2023-10-digital-craftsmanship-nordoberpfalz-modern-linux-cli-tools/
+- Branch wjax: https://draptik.github.io/2023-11-wjax-modern-linux-cli-tools

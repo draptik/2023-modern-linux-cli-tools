@@ -9,4 +9,5 @@
 #qrencode -s 6 -l H -o "../public/images/slides-socrates-day-at.png" "https://draptik.github.io/2023-09-socrates-day-at-modern-linux-cli-tools"
 #qrencode -s 6 -l H -o "../public/images/slides-kandddinsky-openspace.png" "https://draptik.github.io/2023-10-kandddinsky-openspace-modern-linux-cli-tools"
 #qrencode -s 6 -l H -o "../public/images/slides-devops-camp.png" https://draptik.github.io/2023-10-devops-camp-modern-linux-cli-tools
-qrencode -s 6 -l H -o "../public/images/slides-digital-craftsmanship-nordoberpfalz.png" https://draptik.github.io/2023-10-digital-craftsmanship-nordoberpfalz-modern-linux-cli-tools
+#qrencode -s 6 -l H -o "../public/images/slides-digital-craftsmanship-nordoberpfalz.png" https://draptik.github.io/2023-10-digital-craftsmanship-nordoberpfalz-modern-linux-cli-tools
+qrencode -s 6 -l H -o "../public/images/slides-wjax.png" https://draptik.github.io/2023-11-wjax-modern-linux-cli-tools
