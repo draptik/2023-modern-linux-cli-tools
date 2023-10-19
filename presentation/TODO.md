@@ -10,7 +10,6 @@
 - [git-fuzzy](https://github.com/bigH/git-fuzzy)
 - [gdu - ncdu in go](https://github.com/dundee/gdu)
 - [nushell](https://www.nushell.sh/)
-- [Yazi](https://github.com/sxyazi/yazi) Another fast terminal file manager
 - [figlet](http://www.figlet.org/) ascii art
 - [toilet](http://caca.zoy.org/wiki/toilet) ascii art
 

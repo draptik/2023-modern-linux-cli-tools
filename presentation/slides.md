@@ -408,10 +408,11 @@ layout: two-cols
 
 another terminal file manager
 
-> Most terminal file managers out there (if not all) are built using the TUI design principles, much like the superb `Midnight Commander` and `Ranger`. But clifm is built rather having the CLI design principles in mind: do not navigate through a big menu of files, just type it!, exactly as you do in your regular shell, but easier and> faster.
+> Most terminal file managers out there (if not all) are built using the TUI design principles, much like the superb `Midnight Commander` and `Ranger`. But clifm is built rather having the CLI design principles in mind: do not navigate through a big menu of files, just type it!, exactly as you do in your regular shell, but easier and faster.
 >
 > For this reason, clifm does not need to be better: it's just different!
 
+- <gh-stars count="1.1k"/> https://github.com/leo-arch/clifm
 - `ranger` alternative
 - category: navigation, file system
 
@@ -434,8 +435,29 @@ another terminal file manager
 - category: navigation, file system
 
 <img
-  class="absolute bottom-10 right-5 w-100"
+  class="absolute bottom-10 right-5 w-130"
   src="/screencasts/nnn.gif"
+/>
+
+---
+layout: two-cols
+---
+
+# Yazi
+
+fast terminal file manager
+
+> Yazi ("duck" in Chinese) is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+
+- <gh-stars count="3k"/> https://github.com/sxyazi/yazi
+- `ranger` alternative
+- category: navigation, file system
+
+::right::
+
+<img
+  class="absolute bottom-0 right-0 w-120"
+  src="/images/yazi.gif"
 />
 
 ---
