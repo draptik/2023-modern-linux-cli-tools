@@ -592,19 +592,31 @@ rga Vladimir
 
 ---
 
+# fd <lightbulb/>
+
+simple alternative to `find`
+
+- <gh-stars count="27k"/> https://github.com/sharkdp/fd
+- "The command name is 50% shorter than `find`"
+- Convenient syntax `fd PATTERN` (instead of `find -iname '*PATTERN*'`)
+- Sensible defaults: `.gitignore`, ignore hidden files/folders
+- fast
+- category: search
+
+---
+
 # fzf <lightbulb/>
 
 interactive fuzzy search
 
 - <gh-stars count="51k"/> https://github.com/junegunn/fzf
-- pipe any line based input to fzf: Example `find * -type f | fzf`
-- good integration with other tools
+- excellent integration with other tools: Install it and it will be used by many other tools
 - `Alt+c`: quick `cd` navigation
-- nice helper methods for
-    - files & directories `cd **<TAB>`
-    - kill `kill -9 <TAB>`
-    - host names `ssh **<TAB>`
-    - environment variables & aliases `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
+- nice helper methods. `<cmd> **<TAB>`, for example:
+    - `cd **<TAB>`
+    - `ssh **<TAB>`
+    - `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
+    - `kill -9 <TAB>` careful..
 - Things you can do with fzf: https://andrew-quinn.me/fzf
 - category: search
 
@@ -620,19 +632,6 @@ cd .
 search for  "linux"
 cat slides.md | fzf
 -->
-
----
-
-# fd <lightbulb/>
-
-simple alternative to `find`
-
-- <gh-stars count="27k"/> https://github.com/sharkdp/fd
-- "The command name is 50% shorter than `find`"
-- Convenient syntax `fd PATTERN` (instead of `find -iname '*PATTERN*'`)
-- Sensible defaults: `.gitignore`, ignore hidden files/folders
-- fast
-- category: search
 
 ---
 layout: two-cols
