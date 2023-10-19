@@ -3,9 +3,9 @@
 - <mdi-email /> patrick.drechsler@mathema.de
 - <logos-github-icon /> https://github.com/draptik
 - <mdi-web /> Blog: https://draptik.github.io
-- <logos-twitter /> @drechsler
+- <logos-twitter /> @drechsler (don't expect much)
 - <logos-mastodon-icon /> @drechsler@floss.social
-- <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-985a2911/
+- <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-draptik/
 
 Slides 👇
 

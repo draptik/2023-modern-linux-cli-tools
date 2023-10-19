@@ -557,7 +557,7 @@ Demo:
 very fast `grep` replacement
 
 - <gh-stars count="37k"/> https://github.com/BurntSushi/ripgrep
-- `ripgrep` recursively searches directories for a regex pattern
+- `ripgrep` **recursively** searches directories for a regex pattern
 - sensible defaults: respect `.gitignore`, ignores hidden files & folders
 - command: `rg`
 - category: search
@@ -875,13 +875,6 @@ Required: font providing all symbols
 />
 
 ---
-
-## lsd
-
-- <gh-stars count="9k"/> https://github.com/Peltoche/lsd
-- alternative to `colorls`
-
----
 layout: screencast
 image: /screencasts/ncdu.gif
 ---
@@ -1046,10 +1039,10 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - MapSCII (ascii google maps in the terminal) https://github.com/rastapasta/mapscii
 - alwaysontop (always move prompt to top of screen) 160 stars https://github.com/swirepe/alwaysontop
 - wttr.in (ascii weather report) https://github.com/chubin/wttr.in
-- git-fuzzy https://github.com/bigH/git-fuzzy
 - gpt4free https://github.com/xtekky/gpt4free
 - Fig https://fig.io/ Autocomplete on-steroids
 - xkcd.xsh https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310
+- fx (json cli viewer) https://github.com/antonmedv/fx
 
 </div>
 </div>
