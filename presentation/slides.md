@@ -877,18 +877,20 @@ Required: font providing all symbols
 />
 
 ---
-layout: screencast
-image: /screencasts/ncdu.gif
----
 
 # du alternatives <lightbulb/>
 
-`du` replacement
+`du` in the name
 
-- ncdu
+- ncdu - we all know this
   - https://dev.yorhel.nl/ncdu
 - <gh-stars count="2k"/> [gdu: https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - <gh-stars count="6k"/> [dust: https://github.com/bootandy/dust](https://github.com/bootandy/dust)
+
+<img
+  class="absolute bottom-10 right-0 w-150"
+  src="/images/dust.png"
+/>
 
 ---
 
