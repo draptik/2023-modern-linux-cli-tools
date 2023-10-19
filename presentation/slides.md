@@ -883,11 +883,14 @@ layout: screencast
 image: /screencasts/ncdu.gif
 ---
 
-# ncdu <lightbulb/>
+# du alternatives <lightbulb/>
 
-interactive `df` alternative
+`du` replacement
 
-- https://dev.yorhel.nl/ncdu
+- ncdu
+  - https://dev.yorhel.nl/ncdu
+- <gh-stars count="2k"/> [gdu: https://github.com/dundee/gdu](https://github.com/dundee/gdu)
+- <gh-stars count="6k"/> [dust: https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 
 ---
 

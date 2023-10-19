@@ -8,7 +8,6 @@
 - [forgit](https://github.com/wfxr/forgit)
 - [xkcd.xsh](https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310?utm_source=pocket_saves)
 - [git-fuzzy](https://github.com/bigH/git-fuzzy)
-- [gdu - ncdu in go](https://github.com/dundee/gdu)
 - [nushell](https://www.nushell.sh/)
 - [figlet](http://www.figlet.org/) ascii art
 - [toilet](http://caca.zoy.org/wiki/toilet) ascii art
