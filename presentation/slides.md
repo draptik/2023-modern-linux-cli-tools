@@ -639,10 +639,12 @@ layout: two-cols
 
 # jq & Co
 
+sql for json (and other data formats)
+
 ## jq
 
 - lightweight and flexible command-line JSON processor
-- <gh-stars count="25k"/> https://github.com/jqlang/jq
+- <gh-stars count="26k"/> https://github.com/jqlang/jq
 
 
 ## jqp
@@ -655,12 +657,13 @@ layout: two-cols
 ## miller
 
 - similar to `jq`, but also for CSV, TSV, JSON, XML, etc.
-- <gh-stars count="7k"/> https://github.com/johnkerl/miller
+- <gh-stars count="8k"/> https://github.com/johnkerl/miller
 
 ## fq
 
 - `jq`, but for binary data
 - <gh-stars count="8k"/> https://github.com/wader/fq
+- for example: audio, video, images, etc.
 
 ---
 layout: screencast
@@ -985,8 +988,8 @@ I've done it 😇
 <div grid="~ cols-2 gap-4">
 <div>
 
-- <mdi-twitter class="inline"/> https://twitter.com/climagic
-- <mdi-twitter class="inline"/> https://twitter.com/nixcraft
+- <mdi-mastodon class="inline"/> https://mastodon.social/@climagic
+- <mdi-mastodon class="inline"/> https://mastodon.social/@nixCraft
 - <mdi-reddit class="inline"/> r/commandline
 - <mdi-reddit class="inline"/> r/unixporn
 - search for "**awesome-cli**"
