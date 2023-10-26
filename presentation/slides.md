@@ -332,12 +332,6 @@ terminal-independent shell UI
 - customizable
 - scriptable: f. ex. `tmuxinator`
 
-And don't forget about all the fun keybindings when using
-
-- a tiling **window manager** like `i3` or `sway` 🤯
-- a tiling **terminal** like `kitty` 🤯🤯
-- a tiling **shell** like `nushell`, or `tmux` 🤯🤯🤯
-
 ---
 
 # byobu
@@ -348,6 +342,16 @@ And don't forget about all the fun keybindings when using
 - Keybindings `F1` - `F12`
 - Sensible defaults (layout, info line)
 - category: productivity
+
+---
+
+# ⚠️ Warning about tiling ⚠️
+
+don't forget about all the fun keybindings when combining:
+
+- a tiling **window manager** like `i3` or `sway` 🤯
+- a tiling **terminal** like `kitty` 🤯🤯
+- a tiling **shell** like `nushell`, or `tmux` 🤯🤯🤯
 
 ---
 
