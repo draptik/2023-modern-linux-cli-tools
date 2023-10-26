@@ -247,6 +247,7 @@ Everything is data
 - keep an eye on it!
   - <gh-stars count="26k"/> https://github.com/nushell/nushell
 - 100% **NOT** POSIX conform
+- category: experimental
 
 <img
   class="absolute bottom-5 right-5 w-120"
@@ -331,17 +332,11 @@ terminal-independent shell UI
 - customizable
 - scriptable: f. ex. `tmuxinator`
 
-<!--
-- new window
-- navigate between windows
-- rename window
-- split screen
-- navigate between screens
-- zoom screen
-- demo2: hugo folder with tmuxinator config
-- demo3: rpi - detach: Ctrl+b d / attach: tmux a / tmux ls
-- open with named session: tmux new -s foo
--->
+And don't forget about all the fun keybindings when using
+
+- a tiling **window manager** like `i3` or `sway` 🤯
+- a tiling **terminal** like `kitty` 🤯🤯
+- a tiling **shell** like `nushell`, or `tmux` 🤯🤯🤯
 
 ---
 
