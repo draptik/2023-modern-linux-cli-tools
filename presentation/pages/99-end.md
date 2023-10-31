@@ -4,6 +4,7 @@
 - <logos-github-icon /> https://github.com/draptik
 - <mdi-web /> Blog: https://draptik.github.io
 - <logos-twitter /> ~~@drechsler~~ it was fun while it lasted
+- <arcticons-bluesky-alt /> bluesky: https://bsky.app/profile/drechsler.bsky.social
 - <logos-mastodon-icon /> [@drechsler@floss.social](https://floss.social/@drechsler)
 - <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-draptik/
 
