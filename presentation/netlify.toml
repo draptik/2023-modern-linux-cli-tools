@@ -1,9 +1,14 @@
 [build.environment]
-  NODE_VERSION = "14"
+  NODE_VERSION = "18"
 
 [build]
   publish = "dist"
   command = "npm run build"
+
+[[redirects]]
+  from = "/.well-known/*"
+  to = "/.well-known/:splat"
+  status = 200
 
 [[redirects]]
   from = "/*"

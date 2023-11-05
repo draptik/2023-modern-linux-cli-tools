@@ -1,12 +1,11 @@
-# Presentation
+# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
-- The presentation uses [Slidev](https://sli.dev/). Best viewed in a browser.
-
-## Initial setup
+To start the slide show:
 
 - `npm install`
-
-## Run presentation
-
-- [`start-presentation.sh`](`start-presentation.sh`) This is just a shorthand for `npm run dev`, but since I'm not a web developer...
+- `npm run dev`
 - visit http://localhost:3030
+
+Edit the [slides.md](./slides.md) to see the changes.
+
+Learn more about Slidev on [documentations](https://sli.dev/).
