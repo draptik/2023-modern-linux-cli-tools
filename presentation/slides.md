@@ -156,7 +156,7 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 <div grid="~ cols-4 gap-4">
 <div>
 
-```bash
+```sh
 +--------------------+
 |     "terminal"     |
 +--------------------+
@@ -384,7 +384,7 @@ Smooth git handover
   src="/images/mob-logo.svg"
 />
 
-```bash
+```sh
 ## first user
 mob start 5
 mob next
@@ -692,7 +692,7 @@ benchmarking tool
 
 - <gh-stars count="15k"/> https://github.com/sharkdp/hyperfine
 
-```bash
+```sh
 # comparing `fd` with `find`
 hyperfine --warmup 3 \
     'fd -e jpg -uu' \
