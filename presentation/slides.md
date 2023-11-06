@@ -363,12 +363,16 @@ terminal-independent shell UI
 
 # ⚠️ Warning about tiling everything ⚠️
 
-don't forget about all the fun keybindings when combining:
+don't forget about all the fun keybindings
 
-- a tiling **window manager** like `i3` or `sway` 🤯
-- a tiling **terminal** like `kitty` 🤯🤯
-- a tiling **shell** like `nushell` or `tmux` 🤯🤯🤯
-- a tiling **application** like `emacs` or `vim` 🤯🤯🤯🤯
+Nesting can become a challenge...
+
+| Abstraction level | Keybinding Brain Overload |
+|-------------------|---------------------------|
+| tiling **window manager** like `i3` or `sway` | 🤯 |
+| tiling **terminal** like `kitty` | 🤯🤯 |
+| tiling **shell** like `nushell` or `tmux` | 🤯🤯🤯 |
+| **application** like `emacs` or `vim` | 🤯🤯🤯🤯 |
 
 ---
 
