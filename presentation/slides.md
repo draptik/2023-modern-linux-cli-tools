@@ -515,6 +515,11 @@ man pages can be difficult
   - js, ruby, python, perl, haskell, etc.
 - shared user-contributed knowledge-base
 
+## Tealdeer
+
+- <gh-stars count="2k"/> https://github.com/dbrgn/tealdeer
+- ...in rust
+
 ::right::
 
 <v-click>
