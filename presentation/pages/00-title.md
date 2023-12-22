@@ -14,7 +14,7 @@ Patrick Drechsler
 
 
 <img
-  class="absolute bottom-5 right-80 w-100"
+  class="absolute bottom-5 right-100 w-60"
   src="/images/logo_code_days.png"
 />
 
