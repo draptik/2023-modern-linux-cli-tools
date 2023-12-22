@@ -15,7 +15,7 @@ Patrick Drechsler
 
 <img
   class="absolute bottom-5 right-80 w-100"
-  src="/images/wjax-logo.svg"
+  src="/images/logo_code_days.png"
 />
 
 <style>

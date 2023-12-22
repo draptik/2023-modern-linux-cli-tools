@@ -6,14 +6,13 @@
 - <logos-mastodon-icon /> [@drechsler@floss.social](https://floss.social/@drechsler)
 - <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-draptik/
 - <material-symbols-square class="text-blue" /> https://bsky.app/profile/drechsler.bsky.social
-- <logos-twitter /> @drechsler (it was fun while it lasted)
 
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2023-11-wjax-modern-linux-cli-tools
+- https://draptik.github.io/2024-01-code-days-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-wjax.png"
+  src="/images/slides-code-days-24.png"
 />
