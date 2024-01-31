@@ -682,7 +682,7 @@ sql for json (and other data formats)
 
 ## miller
 
-- similar to `jq`, but also for CSV, TSV, JSON, XML, etc.
+- similar to `jq`, but also for CSV, TSV, JSON, etc.
 - <gh-stars count="8k"/> https://github.com/johnkerl/miller
 
 ## fq
