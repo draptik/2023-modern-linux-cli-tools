@@ -884,7 +884,8 @@ fix common typos / mistakes
 
 - `colorls` ("the original" in ruby: https://github.com/athityakumar/colorls)
 - `lsd` (in rust: https://github.com/Peltoche/lsd)
-- `exa` (in rust: https://github.com/ogham/exa)
+- ~~`exa`~~ (in rust: https://github.com/ogham/exa)
+- `eza` (in rust: https://github.com/eza-community/eza)
 
 Required: font providing all symbols
 
@@ -961,7 +962,7 @@ Required: font providing all symbols
 
 Everything *top
 
-- htop
+- btop
 - apachetop
 - ngxtop
 - mtp
@@ -970,10 +971,6 @@ Everything *top
 - iotop
 - iftop
 - nethogs
-
-<!-- 
-- show top and htop
--->
 
 ---
 
@@ -1018,8 +1015,8 @@ I've done it 😇
 
 - <mdi-mastodon class="inline"/> https://mastodon.social/@climagic
 - <mdi-mastodon class="inline"/> https://mastodon.social/@nixCraft
-- <mdi-reddit class="inline"/> r/commandline
-- <mdi-reddit class="inline"/> r/unixporn
+- <mdi-reddit class="inline"/> [r/commandline](https://www.reddit.com/r/commandline/)
+- <mdi-reddit class="inline"/> [r/unixporn](https://www.reddit.com/r/unixporn/)
 - search for "**awesome-cli**"
 
 This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19 (CCC)](https://www.youtube.com/watch?v=8d8-PpcLc24&t=12s).
