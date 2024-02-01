@@ -52,6 +52,14 @@ strong {
 img {
   width: 350px;
 }
+
+.slidev-vclick-target {
+  transition: all 500ms ease;
+}
+
+.slidev-vclick-hidden {
+  transform: scale(0);
+}
 </style>
 
 ---
