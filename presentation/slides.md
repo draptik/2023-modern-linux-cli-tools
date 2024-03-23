@@ -1,11 +1,11 @@
 ---
-theme: 'default'
+theme: ./mathema-2023
 title: 'modern linux cli tools'
 # real width of the canvas, unit in px
 canvasWidth: 980
 download: true
 
-src: ./pages/00-title.md
+src: ./pages/00-title-combo.md
 ---
 
 ---
