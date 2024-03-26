@@ -223,7 +223,7 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 
 ---
 
-## terminal - Retro style <openmoji-unicorn style="display:inline"/>
+## terminal - Retro style 🦄
 
 - cool-retro-term: <gh-stars count="18k"/> https://github.com/Swordfish90/cool-retro-term
 
@@ -768,7 +768,7 @@ interactive REPL for shell piping
 
 ---
 
-# lolcat <openmoji-unicorn style="display:inline"/>
+# lolcat 🦄
 
 Rainbows and unicorns
 
@@ -782,7 +782,7 @@ Rainbows and unicorns
 
 ---
 
-# no-more-secrets <openmoji-unicorn style="display:inline"/>
+# no-more-secrets 🦄
 
 when the tv team comes in your office
 
@@ -811,7 +811,7 @@ when the tv team comes in your office
 
 ---
 
-# sl <openmoji-unicorn style="display:inline"/>
+# sl 🦄
 
 - <gh-stars count="3k"/> https://github.com/mtoyoda/sl
 - typo `sl` (instead of `ls`) -> show steam locomotive
@@ -929,7 +929,7 @@ Required: font providing all symbols
 
 ---
 
-# boxes <openmoji-unicorn style="display:inline"/>
+# boxes 🦄
 
 - https://boxes.thomasjensen.com/docs/
 - ascii art boxes
