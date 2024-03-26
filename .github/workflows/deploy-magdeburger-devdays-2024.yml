@@ -34,6 +34,7 @@ jobs:
             npm i -g @slidev/theme-default
             npm i -g unplugin-icons
             npm i -g openmoji
+            npm i -g @fontsource-variable/noto-emoji
             npm i -g @iconify/json
             npm i -g playwright-chromium
 
