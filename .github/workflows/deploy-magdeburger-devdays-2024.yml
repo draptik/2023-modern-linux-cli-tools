@@ -31,6 +31,11 @@ jobs:
         run:  |
             cd ${{ env.PRESENTATION_FOLDER }}
             npm i -g @slidev/cli
+            npm i -g @slidev/cli
+            npm i -g @slidev/theme-default
+            npm i -g unplugin-icons
+            npm i -g @iconify/json
+            npm i -g playwright-chromium
 
       # Ensure to set the base directory to the current branch name
       - name: Build
