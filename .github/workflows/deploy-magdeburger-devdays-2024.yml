@@ -35,6 +35,7 @@ jobs:
             npm i -g unplugin-icons
             npm i -g openmoji
             npm i -g @iconify/json
+            npm i -g @iconify-json/twemoji
             npm i -g playwright-chromium
 
       # Ensure to set the base directory to the current branch name
