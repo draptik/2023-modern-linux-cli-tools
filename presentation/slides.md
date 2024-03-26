@@ -209,7 +209,7 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 
 
 - Emojis: <noto-thumbs-up class="inline"/> <noto-check-mark-button class="inline"/> <noto-collision class="inline"/> <noto-victory-hand class="inline"/> 
-  <noto-pile-of-poo class="inline"/> <noto-speech-balloon class="inline"/> <noto-zany-face class="inline"/> € ★
+  <noto-pile-of-poo class="inline"/> <noto-speech-balloon class="inline"/> € ★
 - Unicode, Emojis, Fonts, Image support (!)
 
 <img
