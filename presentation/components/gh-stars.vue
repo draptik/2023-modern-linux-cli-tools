@@ -11,5 +11,5 @@ const counter = ref(props.count)
 </script>
 
 <template>
-  <simple-icons-github class="text-xs text-gray-700 inline mb-1 ml-1"/> {{count}} stars
+  <mdi-github class="text-xs text-gray-700 inline mb-1 ml-1"/> {{count}} stars
 </template>
