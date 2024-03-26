@@ -384,7 +384,7 @@ Nesting can become a challenge...
 
 ---
 
-# mob <lightbulb/>
+# mob 💡
 
 Smooth git handover
 
@@ -513,7 +513,7 @@ Demo:
 layout: two-cols
 ---
 
-# tldr <lightbulb/>
+# tldr 💡
 
 man pages can be difficult
 
@@ -567,7 +567,7 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 
 ---
 
-# bat <lightbulb/>
+# bat 💡
 
 `cat` & `less` with syntax highlighting
 
@@ -585,7 +585,7 @@ Demo:
 
 ---
 
-# ripgrep <lightbulb/>
+# ripgrep 💡
 
 very fast `grep` replacement
 
@@ -625,7 +625,7 @@ rga Vladimir
 
 ---
 
-# fd <lightbulb/>
+# fd 💡
 
 simple alternative to `find`
 
@@ -638,7 +638,7 @@ simple alternative to `find`
 
 ---
 
-# fzf <lightbulb/>
+# fzf 💡
 
 interactive fuzzy search
 
@@ -868,7 +868,7 @@ GitHub CLI
 
 ---
 
-# thefuck <lightbulb/>
+# thefuck 💡
 
 fix common typos / mistakes
 
@@ -900,7 +900,7 @@ Required: font providing all symbols
 
 ---
 
-## colorls <lightbulb/>
+## colorls 💡
 
 - <gh-stars count="4k"/> https://github.com/athityakumar/colorls
 - category: unix porn
@@ -912,7 +912,7 @@ Required: font providing all symbols
 
 ---
 
-# du alternatives <lightbulb/>
+# du alternatives 💡
 
 `du` in the name
 
