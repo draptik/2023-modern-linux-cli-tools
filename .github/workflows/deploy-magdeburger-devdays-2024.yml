@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 'lts/*'
 
       - name: Install dependencies
         run: |
@@ -33,10 +33,8 @@ jobs:
             npm i -g @slidev/cli
             npm i -g @slidev/theme-default
             npm i -g unplugin-icons
-            npm i -g openmoji
             npm i -g @iconify/json
             npm i -g @iconify-json/mdi
-            npm i -g @iconify-json/twemoji
             npm i -g playwright-chromium
 
       # Ensure to set the base directory to the current branch name
