@@ -208,8 +208,8 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 **but think about enriching your output!**
 
 
-- Emojis: <noto-thumbs-up class="inline"/> <noto-check-mark-button class="inline"/> <noto-collision class="inline"/> <noto-victory-hand class="inline"/> 
-  <noto-pile-of-poo class="inline"/> <noto-speech-balloon class="inline"/> € ★
+- Emojis: <twemoji-thumbs-up class="inline"/> <twemoji-check-mark-button class="inline"/> <twemoji-collision class="inline"/> <twemoji-victory-hand class="inline"/> 
+  <twemoji-pile-of-poo class="inline"/> <twemoji-speech-balloon class="inline"/> € ★
 - Unicode, Emojis, Fonts, Image support (!)
 
 <img
