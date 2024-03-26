@@ -11,4 +11,5 @@
 #qrencode -s 6 -l H -o "../public/images/slides-devops-camp.png" https://draptik.github.io/2023-10-devops-camp-modern-linux-cli-tools
 #qrencode -s 6 -l H -o "../public/images/slides-digital-craftsmanship-nordoberpfalz.png" https://draptik.github.io/2023-10-digital-craftsmanship-nordoberpfalz-modern-linux-cli-tools
 #qrencode -s 6 -l H -o "../public/images/slides-wjax.png" https://draptik.github.io/2023-11-wjax-modern-linux-cli-tools
-qrencode -s 6 -l H -o "../public/images/slides-code-days-24.png" https://draptik.github.io/2024-01-code-days-modern-linux-cli-tools
+#qrencode -s 6 -l H -o "../public/images/slides-code-days-24.png" https://draptik.github.io/2024-01-code-days-modern-linux-cli-tools
+qrencode -s 6 -l H -o "../public/images/slides-magdeburger-devday-24.png" https://draptik.github.io/2024-05-magdeburger-devdays-modern-linux-cli-tools
