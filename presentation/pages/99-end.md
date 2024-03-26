@@ -1,11 +1,11 @@
 # Thank You!
 
-- <mdi-email /> patrick.drechsler@mathema.de
-- <logos-github-icon /> https://github.com/draptik
-- <mdi-web /> Blog: https://draptik.github.io
-- <logos-mastodon-icon /> [@drechsler@floss.social](https://floss.social/@drechsler)
-- <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-draptik/
-- <material-symbols-square class="text-blue" /> https://bsky.app/profile/drechsler.bsky.social
+- ✉️ patrick.drechsler@mathema.de
+- https://github.com/draptik
+- Blog: https://draptik.github.io
+- [@drechsler@floss.social](https://floss.social/@drechsler)
+- https://www.linkedin.com/in/patrick-drechsler-draptik/
+- https://bsky.app/profile/drechsler.bsky.social
 
 Slides 👇
 
