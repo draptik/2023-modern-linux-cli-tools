@@ -91,9 +91,7 @@ img {
 # Linux tooling philosophy
 
 - **do one thing (and only one thing!) well**
-
 - **chaining**
-
 - _sound familiar? (hint: functional programming...)_
 
 ---
@@ -102,7 +100,6 @@ img {
 
 - **productivity**
   - one cli command is better than multiple clicks in a GUI
-
 - **optics**
     - "unix porn" (`PS1`, `ls`, ...)
 
