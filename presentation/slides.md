@@ -21,6 +21,11 @@ src: ./pages/00-title-combo.md
 
 ---
 layout: two-cols
+src: ./pages/01-intro-two-speakers.md
+---
+
+---
+layout: two-cols
 ---
 
 # "modern" is relative...
