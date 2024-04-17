@@ -238,15 +238,17 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 ## Terminals (Sandra)
 
 Linux:
-* Konsole
-* [Tilix](https://gnunn1.github.io/tilix-web/)
+
+- Konsole
+- [Tilix](https://gnunn1.github.io/tilix-web/)
 
 Mac: [iterm2](https://iterm2.com)
 
 Weitere Terminals, die angepriesen werden
-* [fig](https://fig.io/) (nur Mac)
-* [warp](https://www.warp.dev/) (nur Mac)
-* [Hyper](https://hyper.is/)
+
+- [fig](https://fig.io/) (nur Mac)
+- [warp](https://www.warp.dev/) (nur Mac)
+- [Hyper](https://hyper.is/)
 
 ---
 
@@ -295,8 +297,9 @@ not the topic of this talk, but...
 ## Mein Shell-Favorite: zsh (Sandra)
 
 Gründe:
-* Umstieg von Bash auf zsh gestaltete sich einfach
-* Wegen Framework oh-my-zsh (Framework um zsh Konfiguration zu verwalten)
+
+- Umstieg von Bash auf zsh gestaltete sich einfach
+- Wegen Framework oh-my-zsh (Framework um zsh Konfiguration zu verwalten)
 
 ---
 
@@ -728,7 +731,8 @@ sql for json (and other data formats)
 - for example: audio, video, images, etc.
 
 ---
-#### sdkman (Sandra)
+
+## sdkman (Sandra)
 
 SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
 
@@ -743,7 +747,8 @@ sdk env init
 ```
 
 ---
-#### nvm (Sandra)
+
+## nvm (Sandra)
 
 nvm hilft bei der Verwaltung verschiedener NodeJS Versionen
 
@@ -757,7 +762,7 @@ nvm alias default 8.1.0
 
 ---
 
-#### cloc (Sandra)
+## cloc (Sandra)
 
 cloc zählt Leerzeilen, Kommentarzeilen und physikalische Zeilen in verschiedenen Programmiersprachen
 
@@ -765,7 +770,7 @@ https://github.com/AlDanial/cloc
 
 ---
 
-#### scc (Sloc Cloc and Code) (Sandra)
+## scc (Sloc Cloc and Code) (Sandra)
 
 scc zählt wie cloc Zeilen, berechnet aber noch zusätzlich die Code Komplexität
 
@@ -773,14 +778,14 @@ https://github.com/boyter/scc
 
 ---
 
-#### watch (Sandra)
+## watch (Sandra)
 
-* Ein built-in Linux Kommando
-* Es lässt benutzer-definierte Befehle im Intervall durchlaufen
+- Ein built-in Linux Kommando
+- Es lässt benutzer-definierte Befehle im Intervall durchlaufen
 
 ---
 
-#### httpie (Sandra)
+## httpie (Sandra)
 
 Intuitiver HTTP Client
 
@@ -798,32 +803,33 @@ https://geoff.greer.fm/ag/
 
 ---
 
-#### yq (Sandra)
+## yq (Sandra)
 
-* YAML Processor
-* angelehnt an jq
-* kann auch JSON und XML
+- YAML Processor
+- angelehnt an jq
+- kann auch JSON und XML
 
 
 https://mikefarah.gitbook.io/yq/
 
 
-#### XMLStarlet (Sandra)
+## XMLStarlet (Sandra)
 
-* Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
+- Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
 
 http://xmlstar.sourceforge.net/
 
 ---
 
-### Containertools (Sandra)
-* dive
-* trivy
-* k9s
+## Containertools (Sandra)
+
+- dive
+- trivy
+- k9s
 
 ---
 
-#### dive (Sandra)
+## dive (Sandra)
 
 Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
 
@@ -831,7 +837,7 @@ https://github.com/wagoodman/dive
 
 ---
 
-#### trivy (Sandra)
+## trivy (Sandra)
 
 Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
 
@@ -839,7 +845,8 @@ https://aquasecurity.github.io/trivy
 
 ---
 
-#### k9s (Sandra)
+## k9s (Sandra)
+
 K8s Manager für das Terminal
 
 https://k9scli.io/
