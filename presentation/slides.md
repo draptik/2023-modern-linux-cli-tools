@@ -501,12 +501,6 @@ file explorer / manager
 - key bindings: see `~/.config/ranger/rc.conf` starting at line ~300...
 - category: navigation, file system
 
-<!--
-Demo:
-- kitty with image preview
-- copy `yy` & paste `pp`
--->
-
 ---
 layout: two-cols
 ---
@@ -579,13 +573,6 @@ fast terminal file manager
 - finish: `C-c C-c`
 - exit
 
-
-<!--
-Demo:
-- open demo folder
-- change some file names
--->
-
 ---
 layout: two-cols
 ---
@@ -652,14 +639,6 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 - hint: can be used as preview by `ranger`...
 - category: file preview
 
-<!--
-Demo:
-- cd some-code
-- cat Demo1.fs
-- less Demo1.fs
-- bat Demo1.fs
--->
-
 ---
 
 # ripgrep 💡
@@ -685,11 +664,6 @@ ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite
 - faster than `pdfgrep` (see website for a benchmark)
 - category: search
 - Demo: search in Manning books folder
-
-<!--
-cd ~/Dropbox/Apps/Manning\ Books/
-rga Vladimir
--->
 
 ---
 
