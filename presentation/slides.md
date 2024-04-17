@@ -235,6 +235,21 @@ A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
 
 ---
 
+## Terminals (Sandra)
+
+Linux:
+* Konsole
+* [Tilix](https://gnunn1.github.io/tilix-web/)
+
+Mac: [iterm2](https://iterm2.com)
+
+Weitere Terminals, die angepriesen werden
+* [fig](https://fig.io/) (nur Mac)
+* [warp](https://www.warp.dev/) (nur Mac)
+* [Hyper](https://hyper.is/)
+
+---
+
 ## terminal - Retro style 🦄
 
 - cool-retro-term: <gh-stars count="18k"/> https://github.com/Swordfish90/cool-retro-term
@@ -274,6 +289,55 @@ not the topic of this talk, but...
 - zsh
 - fish
 - dash (embedded)
+
+---
+
+## Mein Shell-Favorite: zsh (XXX)
+
+Gründe:
+* Umstieg von Bash auf zsh gestaltete sich einfach
+* Wegen Framework oh-my-zsh (Framework um zsh Konfiguration zu verwalten)
+
+---
+
+## oh-my-zsh (XXX)
+
+https://ohmyz.sh/
+
+Sammlung von Themes, Shortcuts und Plugins 
+
+---
+
+## oh-my-zsh Shortcuts (XXX)
+
+```shell
+# Switching directory
+<directory name>='cd <directory name>'
+..='cd ..'
+...='cd ../..'
+
+# Create directory
+md='mkdir -p'
+
+# List directory content
+l='ls -lah'
+ll='ls -lh'
+```
+
+---
+
+## oh-my-zsh Plugins (XXX)
+
+```shell
+$ cat ~/.zshrc
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(sdk git jump z extract history web-search history-substring-search 
+	mvn gitignore zsh-autosuggestions kubectl sublime asciidoctor ansible vagrant )
+```
 
 ---
 
@@ -607,17 +671,8 @@ very fast `grep` replacement
 - sensible defaults: respect `.gitignore`, ignores hidden files & folders
 - command: `rg`
 - category: search
-
 - use `rg --hidden -g '!.git' "your search"` to search all hidden folder except `.git`
   - create an alias (maybe `rgh`?)...
-
-<!--
-Demo:
-- single file -> "foo" -> found
-- within .git folder -> "foo" -> not found
-- within node_modules folder -> "foo" -> not found by default, because in .gitignore
-- within node_modules folder -> "foo" -> found using `rg --hidden -g '!.git'`
--->
 
 ---
 
@@ -666,19 +721,6 @@ interactive fuzzy search
 - Things you can do with fzf: https://andrew-quinn.me/fzf
 - category: search
 
-<!--
-
-
-- `fzf -m` multiselect
-- select files with Shift+TAB
-- search for "bob"
-- find * -type f | fzf -m
-
-cd .
-search for  "linux"
-cat slides.md | fzf
--->
-
 ---
 layout: two-cols
 ---
@@ -687,29 +729,146 @@ layout: two-cols
 
 sql for json (and other data formats)
 
-## jq
+### jq
 
 - lightweight and flexible command-line JSON processor
 - <gh-stars count="26k"/> https://github.com/jqlang/jq
 
 
-## jqp
+### jqp
 
 - TUI for `jq`
 - <gh-stars count="1.8k"/> https://github.com/noahgorstein/jqp
 
 ::right::
 
-## miller
+### miller
 
 - similar to `jq`, but also for CSV, TSV, JSON, etc.
 - <gh-stars count="8k"/> https://github.com/johnkerl/miller
 
-## fq
+### fq
 
 - `jq`, but for binary data
 - <gh-stars count="8k"/> https://github.com/wader/fq
 - for example: audio, video, images, etc.
+
+---
+#### sdkman (XXX)
+
+SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
+
+https://sdkman.io/
+
+```shell
+sdk list
+sdk list maven
+sdk install maven 3.8.6
+sdk use java 8.0.282.hs-adpt
+sdk env init
+```
+
+---
+#### nvm (XXX)
+
+nvm hilft bei der Verwaltung verschiedener NodeJS Versionen
+
+https://github.com/nvm-sh/nvm
+
+```shell
+nvm install 16                   
+nvm use 16                        
+nvm alias default 8.1.0               
+```
+
+---
+
+#### cloc (XXX)
+
+cloc zählt Leerzeilen, Kommentarzeilen und physikalische Zeilen in verschiedenen Programmiersprachen
+
+https://github.com/AlDanial/cloc
+
+---
+
+#### scc (Sloc Cloc and Code) (XXX)
+
+scc zählt wie cloc Zeilen, berechnet aber noch zusätzlich die Code Komplexität
+
+https://github.com/boyter/scc
+
+---
+
+#### watch (XXX)
+
+* Ein built-in Linux Kommando
+* Es lässt benutzer-definierte Befehle im Intervall durchlaufen
+
+---
+
+#### httpie (XXX)
+
+Intuitiver HTTP Client
+
+https://httpie.io/cli
+
+Beispiel API: https://swapi.dev/
+
+---
+
+#### ag (+++)
+
+Werkzeug, um Code durchzusuchen
+
+https://geoff.greer.fm/ag/
+
+---
+
+#### yq (XXX)
+
+* YAML Processor
+* angelehnt an jq
+* kann auch JSON und XML
+
+
+https://mikefarah.gitbook.io/yq/
+
+
+#### XMLStarlet (XXX)
+
+* Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
+
+http://xmlstar.sourceforge.net/
+
+---
+
+### Containertools (XXX)
+* dive
+* trivy
+* k9s
+
+---
+
+#### dive (XXX)
+
+Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
+
+https://github.com/wagoodman/dive
+
+---
+
+#### trivy (XXX)
+
+Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
+
+https://aquasecurity.github.io/trivy
+
+---
+
+#### k9s (XXX)
+K8s Manager für das Terminal
+
+https://k9scli.io/
 
 ---
 layout: screencast
