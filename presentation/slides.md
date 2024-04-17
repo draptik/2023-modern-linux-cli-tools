@@ -292,7 +292,7 @@ not the topic of this talk, but...
 
 ---
 
-## Mein Shell-Favorite: zsh (XXX)
+## Mein Shell-Favorite: zsh (Sandra)
 
 Gründe:
 * Umstieg von Bash auf zsh gestaltete sich einfach
@@ -300,7 +300,7 @@ Gründe:
 
 ---
 
-## oh-my-zsh (XXX)
+## oh-my-zsh (Sandra)
 
 https://ohmyz.sh/
 
@@ -308,7 +308,7 @@ Sammlung von Themes, Shortcuts und Plugins
 
 ---
 
-## oh-my-zsh Shortcuts (XXX)
+## oh-my-zsh Shortcuts (Sandra)
 
 ```shell
 # Switching directory
@@ -326,7 +326,7 @@ ll='ls -lh'
 
 ---
 
-## oh-my-zsh Plugins (XXX)
+## oh-my-zsh Plugins (Sandra)
 
 ```shell
 $ cat ~/.zshrc
@@ -754,7 +754,7 @@ sql for json (and other data formats)
 - for example: audio, video, images, etc.
 
 ---
-#### sdkman (XXX)
+#### sdkman (Sandra)
 
 SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
 
@@ -769,7 +769,7 @@ sdk env init
 ```
 
 ---
-#### nvm (XXX)
+#### nvm (Sandra)
 
 nvm hilft bei der Verwaltung verschiedener NodeJS Versionen
 
@@ -783,7 +783,7 @@ nvm alias default 8.1.0
 
 ---
 
-#### cloc (XXX)
+#### cloc (Sandra)
 
 cloc zählt Leerzeilen, Kommentarzeilen und physikalische Zeilen in verschiedenen Programmiersprachen
 
@@ -791,7 +791,7 @@ https://github.com/AlDanial/cloc
 
 ---
 
-#### scc (Sloc Cloc and Code) (XXX)
+#### scc (Sloc Cloc and Code) (Sandra)
 
 scc zählt wie cloc Zeilen, berechnet aber noch zusätzlich die Code Komplexität
 
@@ -799,14 +799,14 @@ https://github.com/boyter/scc
 
 ---
 
-#### watch (XXX)
+#### watch (Sandra)
 
 * Ein built-in Linux Kommando
 * Es lässt benutzer-definierte Befehle im Intervall durchlaufen
 
 ---
 
-#### httpie (XXX)
+#### httpie (Sandra)
 
 Intuitiver HTTP Client
 
@@ -824,7 +824,7 @@ https://geoff.greer.fm/ag/
 
 ---
 
-#### yq (XXX)
+#### yq (Sandra)
 
 * YAML Processor
 * angelehnt an jq
@@ -834,7 +834,7 @@ https://geoff.greer.fm/ag/
 https://mikefarah.gitbook.io/yq/
 
 
-#### XMLStarlet (XXX)
+#### XMLStarlet (Sandra)
 
 * Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
 
@@ -842,14 +842,14 @@ http://xmlstar.sourceforge.net/
 
 ---
 
-### Containertools (XXX)
+### Containertools (Sandra)
 * dive
 * trivy
 * k9s
 
 ---
 
-#### dive (XXX)
+#### dive (Sandra)
 
 Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
 
@@ -857,7 +857,7 @@ https://github.com/wagoodman/dive
 
 ---
 
-#### trivy (XXX)
+#### trivy (Sandra)
 
 Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
 
@@ -865,7 +865,7 @@ https://aquasecurity.github.io/trivy
 
 ---
 
-#### k9s (XXX)
+#### k9s (Sandra)
 K8s Manager für das Terminal
 
 https://k9scli.io/
@@ -909,33 +909,6 @@ No command currently running: cp, mv, dd, tar, cat, rsync, grep, fgrep, egrep, c
 sha1sum, sha224sum, sha256sum, sha384sum, sha512sum, adb, gzip, gunzip, bzip2, bunzip2, xz,
 unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permissions.
 ```
-
-<!--
-- `scp ubuntu*.iso pi@camel:~/`
-- `watch progress`
--->
-
----
-
-# Ultimate Plumber (up)
-
-interactive REPL for shell piping
-
-- <gh-stars count="8k"/> https://github.com/akavel/up
-- interactive piping
-- instant live preview
-- category: search, file manipulation, interactive
-
-<img
-  class="absolute top-20 right-20 w-50"
-  src="/images/ultimate-plumber-logo.svg"
-/>
-
-<!--
-- cd some-project
-- cat Demo1.fs | up
-- grep credit
--->
 
 ---
 
@@ -992,38 +965,6 @@ when the tv team comes in your office
 <img
   class="absolute bottom-0 right-0 w-130"
   src="/images/sl-demo.gif"
-/>
-
----
-layout: two-cols
----
-
-# ASCII art
-
-literally 100s of tools! For example...
-
-
-## pixterm
-
-- true color images in the terminal
-- <gh-stars count="930"/> https://github.com/eliukblau/pixterm
-
-<img
-  class="absolute bottom-10 right-5 w-70"
-  src="/images/asciiart-pixterm-screenshot.png"
-/>
-
-
-::right::
-
-## chafa
-
-- image-to-text converter
-- <gh-stars count="2k"/> https://github.com/hpjansson/chafa
-
-<img
-  class="absolute bottom-35 right-5 w-70"
-  src="/images/asciiart-chafa-screenshot.gif"
 />
 
 ---
