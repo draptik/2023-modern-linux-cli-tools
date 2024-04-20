@@ -4,11 +4,11 @@ layout: two-cols
 
 ### Patrick Drechsler
 
-- <mdi-email /> patrick.drechsler@mathema.de
-- <logos-github-icon /> https://github.com/draptik
-- <mdi-web /> Blog: https://draptik.github.io
-- <logos-mastodon-icon /> https://floss.social/@drechsler
-- <logos-linkedin-icon /> https://www.linkedin.com/in/patrick-drechsler-draptik/
+- patrick.drechsler@mathema.de
+- https://github.com/draptik
+- Blog: https://draptik.github.io
+- https://floss.social/@drechsler
+- https://www.linkedin.com/in/patrick-drechsler-draptik/
 
 **Slides**
 
@@ -19,11 +19,11 @@ layout: two-cols
 
 ### Sandra Parsick
 
-- <mdi-email /> mail@sandra-parsick.de
-- <logos-github-icon /> https://github.com/sparsick
-- <mdi-web /> Web: https://www.sandra-parsick.de/
-- <logos-mastodon-icon /> https://mastodon.social/@sparsick
-- <logos-linkedin-icon /> https://www.linkedin.com/in/sandra-parsick
+- mail@sandra-parsick.de
+- https://github.com/sparsick
+- Web: https://www.sandra-parsick.de/
+- https://mastodon.social/@sparsick
+- https://www.linkedin.com/in/sandra-parsick
 
 <img
   class="absolute bottom-5 left-10 h-60"
