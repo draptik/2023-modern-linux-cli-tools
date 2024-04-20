@@ -152,17 +152,6 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
-# Tipp
-
-A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
-
-<img
-  class="absolute top-30 left-2 w-220"
-  src="/images/awk-2nd-ed.png" />
-
-
----
-
 # Disclaimer
 
 .
@@ -658,6 +647,14 @@ very fast `grep` replacement
 
 ---
 
+## ag (Sandra)
+
+Werkzeug, um Code durchzusuchen
+
+https://geoff.greer.fm/ag/
+
+---
+
 # ripgrep-all
 
 ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite (!), etc
@@ -792,14 +789,6 @@ Intuitiver HTTP Client
 https://httpie.io/cli
 
 Beispiel API: https://swapi.dev/
-
----
-
-#### ag (+++)
-
-Werkzeug, um Code durchzusuchen
-
-https://geoff.greer.fm/ag/
 
 ---
 
