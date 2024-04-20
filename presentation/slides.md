@@ -706,6 +706,24 @@ sql for json (and other data formats)
 
 ---
 
+## yq (Sandra)
+
+- YAML Processor
+- angelehnt an jq
+- kann auch JSON und XML
+
+
+https://mikefarah.gitbook.io/yq/
+
+
+## XMLStarlet (Sandra)
+
+- Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
+
+http://xmlstar.sourceforge.net/
+
+---
+
 ## sdkman (Sandra)
 
 SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
@@ -766,24 +784,6 @@ Intuitiver HTTP Client
 https://httpie.io/cli
 
 Beispiel API: https://swapi.dev/
-
----
-
-## yq (Sandra)
-
-- YAML Processor
-- angelehnt an jq
-- kann auch JSON und XML
-
-
-https://mikefarah.gitbook.io/yq/
-
-
-## XMLStarlet (Sandra)
-
-- Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
-
-http://xmlstar.sourceforge.net/
 
 ---
 
