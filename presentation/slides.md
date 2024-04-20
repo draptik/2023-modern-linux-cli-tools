@@ -494,29 +494,6 @@ file explorer / manager
 - category: navigation, file system
 
 ---
-layout: two-cols
----
-
-# clifm
-
-another terminal file manager
-
-> Most terminal file managers out there (if not all) are built using the TUI design principles, much like the superb `Midnight Commander` and `Ranger`. But clifm is built rather having the CLI design principles in mind: do not navigate through a big menu of files, just type it!, exactly as you do in your regular shell, but easier and faster.
->
-> For this reason, clifm does not need to be better: it's just different!
-
-- <gh-stars count="1.1k"/> https://github.com/leo-arch/clifm
-- `ranger` alternative
-- category: navigation, file system
-
-::right::
-
-<img
-  src="/screencasts/clifm.gif"
-/>
-
-
----
 
 # nnn
 
