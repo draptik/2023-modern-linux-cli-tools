@@ -1008,23 +1008,6 @@ Required: font providing all symbols
 
 ---
 
-# chatGPT-shell-cli
-
-2023 - no presentation without the current hype: ChatGPT
-
-- <gh-stars count="414"/> https://github.com/0xacx/chatGPT-shell-cli
-- Chat-GPT client without any dependencies
-- like most clients: requires API-Key
-- command: `chatgpt`
-
-
-<img
-  class="absolute bottom-30 right-30 w-200"
-  src="/images/chatgpt.png"
-/>
-
----
-
 # monitoring
 
 Everything *top
