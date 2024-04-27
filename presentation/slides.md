@@ -7,7 +7,7 @@ occasion: "MD-DevDays 2024"
 occasionLogoUrl: "/images/logo_magdeburger-devdays-2024.png"
 company: "MATHEMA"
 presenter: "Sandra Parsick & Patrick Drechsler"
-contact: "info@sandra-parsick.de / patrick.drechsler@mathema.de"
+contact: "mail@sandra-parsick.de / patrick.drechsler@mathema.de"
 info: |
   ## modern linux cli tools
 canvasWidth: 980
@@ -228,16 +228,45 @@ VS Code is cool, but it is not a CLI tool
 
 Linux:
 
-- Konsole
+- Konsole (Default-Terminal of KDE)
 - [Tilix](https://gnunn1.github.io/tilix-web/)
 
 Mac: [iterm2](https://iterm2.com)
 
-Weitere Terminals, die angepriesen werden
+More "modern" Terminals:
 
-- [fig](https://fig.io/) (nur Mac)
-- [warp](https://www.warp.dev/) (nur Mac)
+- [warp](https://www.warp.dev/)
 - [Hyper](https://hyper.is/)
+<v-click>
+<img
+  class="absolute top-20 right-4 w-130 image-with-border "
+  src="/images/terminals/konsole-kde.png"
+/>
+</v-click>
+<v-click>
+<img
+  class="absolute top-20 right-4 w-130 image-with-border "
+  src="/images/terminals/tilix.gif"
+/>
+</v-click>
+<v-click>
+<img
+  class="absolute top-20 right-4 w-130 image-with-border "
+  src="/images/terminals/iterm2.png"
+/>
+</v-click>
+<v-click>
+<img
+  class="absolute top-20 right-4 w-130 image-with-border "
+  src="/images/terminals/warp.gif"
+/>
+</v-click>
+<v-click>
+<img
+  class="absolute top-20 right-4 w-130 image-with-border "
+  src="/images/terminals/hyper.png"
+/>
+</v-click>
 
 ---
 
@@ -262,7 +291,7 @@ Weitere Terminals, die angepriesen werden
 
 ---
 
-# terminals
+# terminals TODO eventuell streichen?
 
 modern alternatives
 
@@ -283,24 +312,25 @@ not the topic of this talk, but...
 
 ---
 
-## Mein Shell-Favorite: zsh (Sandra)
+## Sandra's Favourite Shell: zsh 
 
-Gründe:
+Reasons:
 
-- Umstieg von Bash auf zsh gestaltete sich einfach
-- Wegen Framework oh-my-zsh (Framework um zsh Konfiguration zu verwalten)
+- Movement from bash was easier
+- Because of the framework `oh-my-zsh` 
 
----
+::right::
 
-## oh-my-zsh (Sandra)
 
-https://ohmyz.sh/
+## oh-my-zsh 
 
+- https://ohmyz.sh/
+- Collection of themes, shortcuts and plugins
 Sammlung von Themes, Shortcuts und Plugins 
 
 ---
 
-## oh-my-zsh Shortcuts (Sandra)
+## oh-my-zsh Shortcuts 
 
 ```shell
 # Switching directory
@@ -316,9 +346,13 @@ l='ls -lah'
 ll='ls -lh'
 ```
 
+::right::
+
+Demo
+
 ---
 
-## oh-my-zsh Plugins (Sandra)
+## oh-my-zsh Plugins
 
 ```shell
 $ cat ~/.zshrc
@@ -330,6 +364,9 @@ $ cat ~/.zshrc
 plugins=(sdk git jump z extract history web-search history-substring-search 
 	mvn gitignore zsh-autosuggestions kubectl sublime asciidoctor ansible vagrant )
 ```
+
+::right::
+Demo
 
 ---
 
@@ -624,11 +661,18 @@ very fast `grep` replacement
 
 ---
 
-## ag (Sandra)
+# ag 
 
-Werkzeug, um Code durchzusuchen
+Code Searching Tool
 
 https://geoff.greer.fm/ag/
+
+<v-click>
+<img
+  class="absolute top-20 right-5 w-120"
+  src="/images/ag-demo.gif"
+/>
+</v-click>
 
 ---
 
@@ -704,30 +748,20 @@ sql for json (and other data formats)
 - <gh-stars count="8k"/> https://github.com/wader/fq
 - for example: audio, video, images, etc.
 
----
+### yq (Sandra)
 
-## yq (Sandra)
+- `jq`, but for YAML
+- https://mikefarah.gitbook.io/yq/
+- understand also JSON, XML
 
-- YAML Processor
-- angelehnt an jq
-- kann auch JSON und XML
-
-
-https://mikefarah.gitbook.io/yq/
-
-
-## XMLStarlet (Sandra)
-
-- Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
-
-http://xmlstar.sourceforge.net/
 
 ---
 
-## sdkman (Sandra)
+## Managing Development Environment
 
-SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
+### sdkman 
 
+Management for JDK Tools
 https://sdkman.io/
 
 ```shell
@@ -738,11 +772,11 @@ sdk use java 8.0.282.hs-adpt
 sdk env init
 ```
 
----
+::right::
 
-## nvm (Sandra)
+### nvm
 
-nvm hilft bei der Verwaltung verschiedener NodeJS Versionen
+Management multiple Nodejs version on your machine
 
 https://github.com/nvm-sh/nvm
 
@@ -754,68 +788,79 @@ nvm alias default 8.1.0
 
 ---
 
-## cloc (Sandra)
+# Understanding new Code Repsoitories
 
-cloc zählt Leerzeilen, Kommentarzeilen und physikalische Zeilen in verschiedenen Programmiersprachen
+### cloc 
+
+`cloc` counts empty line, lines of comments and lines of code in different programming language
 
 https://github.com/AlDanial/cloc
 
----
 
-## scc (Sloc Cloc and Code) (Sandra)
+### scc (Sloc Cloc and Code)
 
-scc zählt wie cloc Zeilen, berechnet aber noch zusätzlich die Code Komplexität
+`scc` is similiar to `cloc`, but it also calculate the code complexity
 
 https://github.com/boyter/scc
 
----
+::right::
 
-## watch (Sandra)
-
-- Ein built-in Linux Kommando
-- Es lässt benutzer-definierte Befehle im Intervall durchlaufen
+Demo
 
 ---
 
-## httpie (Sandra)
+# httpie
 
-Intuitiver HTTP Client
+alternative to `wget`  and `curl`
 
 https://httpie.io/cli
 
-Beispiel API: https://swapi.dev/
+
+::right::
+
+demo
 
 ---
 
-## Containertools (Sandra)
+# Containertools
 
-- dive
-- trivy
-- k9s
 
----
+### dive (Sandra)
 
-## dive (Sandra)
-
-Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
+Docker Image Inspector
 
 https://github.com/wagoodman/dive
 
+::right::
+
+demo
+
 ---
+
+# Containertools
 
 ## trivy (Sandra)
 
-Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
+Vulnerability/Misconfiguration/Secret Scanner for container
 
 https://aquasecurity.github.io/trivy
 
+::right::
+Demo
+
 ---
 
-## k9s (Sandra)
+# Containertools
 
-K8s Manager für das Terminal
+### k9s (Sandra)
+
+K8s manager 
 
 https://k9scli.io/
+
+::right::
+
+demo
 
 ---
 layout: screencast
@@ -856,6 +901,17 @@ No command currently running: cp, mv, dd, tar, cat, rsync, grep, fgrep, egrep, c
 sha1sum, sha224sum, sha256sum, sha384sum, sha512sum, adb, gzip, gunzip, bzip2, bunzip2, xz,
 unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permissions.
 ```
+
+---
+
+# watch
+
+- Built-in Linux command 
+- Repeat defined commands in a loop
+
+::right::
+
+demo
 
 ---
 
@@ -1088,7 +1144,6 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - xclip (cli to X clipboard) 403 stars https://github.com/astrand/xclip
 - neofetch (fancy system info in the shell) 7.7k stars https://github.com/dylanaraps/neofetch 
 - expect https://likegeeks.com/expect-command/
-- httpie (cli http client) 45k stars https://httpie.org/
 - http-prompt (cli http client) 7.6k stars http://http-prompt.com/
 - pywal (color schemes for terminal) 3.4k stars https://github.com/dylanaraps/pywal
 - ytfzf https://github.com/pystardust/ytfzf find YT videos and downloads them using youtube-dl

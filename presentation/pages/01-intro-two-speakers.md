@@ -1,6 +1,14 @@
 ### Sandra Parsick
 
-TODO
+- freiberufliche Software Entwicklerin
+- Beruflich: Java, IaC
+- Interessen:
+    - Software Crafting
+    - Test-Driven Development
+    - Developer Experience
+    - Automatisierung von Entwicklungsprozessen
+    
+
 
 <img
   class="absolute bottom-5 left-10 h-40 rounded-full"
