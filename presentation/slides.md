@@ -495,22 +495,6 @@ file explorer / manager
 - category: navigation, file system
 
 ---
-
-# nnn
-
-another terminal file manager
-
-> nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
-
-- `ranger` alternative
-- category: navigation, file system
-
-<img
-  class="absolute bottom-10 right-5 w-130"
-  src="/screencasts/nnn.gif"
-/>
-
----
 layout: two-cols
 ---
 
