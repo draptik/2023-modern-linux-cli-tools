@@ -10,9 +10,9 @@
 Slides 👇
 
 - QR Code or
-- https://draptik.github.io/2024-05-magdeburger-devdays-modern-linux-cli-tools
+- https://draptik.github.io/2024-05-adc-modern-linux-cli-tools
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-magdeburger-devday-24.png"
+  src="/images/slides-adc-24.png"
 />

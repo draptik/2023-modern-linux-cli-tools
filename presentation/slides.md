@@ -3,11 +3,11 @@ theme: ./mathema-2023
 defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
-occasion: "MD-DevDays 2024"
-occasionLogoUrl: "/images/logo_magdeburger-devdays-2024.png"
+occasion: "ADC 2024"
+occasionLogoUrl: "/images/logo_adc.png"
 company: "MATHEMA"
-presenter: "Sandra Parsick & Patrick Drechsler"
-contact: "info@sandra-parsick.de / patrick.drechsler@mathema.de"
+presenter: "Patrick Drechsler"
+contact: "patrick.drechsler@mathema.de"
 info: |
   ## modern linux cli tools
 canvasWidth: 980
@@ -16,7 +16,7 @@ transition: slide-left
 mdc: true
 download: true
 
-src: ./pages/00-title-combo.md
+src: ./pages/00-title.md
 ---
 
 ---
