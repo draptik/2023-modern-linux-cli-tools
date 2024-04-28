@@ -1098,7 +1098,7 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - pywal (color schemes for terminal) 3.4k stars https://github.com/dylanaraps/pywal
 - ytfzf https://github.com/pystardust/ytfzf find YT videos and downloads them using youtube-dl
 - figlet http://www.figlet.org/ ascii art
-- <noto-pile-of-poo class="inline"/>toilet http://caca.zoy.org/wiki/toilet ascii art
+- toilet http://caca.zoy.org/wiki/toilet ascii art
 
 </div>
 <div>
