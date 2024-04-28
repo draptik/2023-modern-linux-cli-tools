@@ -1041,12 +1041,12 @@ Everything lazy*
 
 
 <img
-  class="absolute bottom-0 left-5 w-125"
+  class="absolute bottom-0 left-5 w-110"
   src="/screencasts/lazydocker.gif"
 />
 
 <img
-  class="absolute top-30 right-5 w-100"
+  class="absolute bottom-10 right-5 w-100"
   src="/screencasts/lazygit.gif"
 />
 
