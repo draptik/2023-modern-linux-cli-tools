@@ -4,7 +4,8 @@ defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
 occasion: "ADC 2024"
-occasionLogoUrl: "/images/logo_adc.png"
+# must be a relative path
+occasionLogoUrl: "./images/logo_adc.png"
 company: "MATHEMA"
 presenter: "Patrick Drechsler"
 contact: "patrick.drechsler@mathema.de"
