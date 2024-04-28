@@ -16,7 +16,7 @@ transition: slide-left
 mdc: true
 download: true
 
-src: ./pages/00-title.md
+src: ./00-title.md
 ---
 
 ---
