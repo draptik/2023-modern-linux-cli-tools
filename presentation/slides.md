@@ -635,6 +635,8 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 
 > McFly replaces your default <kbd>Ctrl R</kbd> shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network.
 
+Also have a look at [atuin: https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
+
 ---
 
 # bat 💡
@@ -788,7 +790,7 @@ nvm alias default 8.1.0
 
 ---
 
-# Understanding new Code Repositories
+# Understanding new Code Repoitories
 
 ### cloc 
 
