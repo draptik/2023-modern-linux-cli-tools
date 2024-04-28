@@ -788,7 +788,7 @@ nvm alias default 8.1.0
 
 ---
 
-# Understanding new Code Repsoitories
+# Understanding new Code Repositories
 
 ### cloc 
 
