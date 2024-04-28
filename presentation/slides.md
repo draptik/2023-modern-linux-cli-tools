@@ -1113,7 +1113,7 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - Fig https://fig.io/ Autocomplete on-steroids
 - xkcd.xsh https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310
 - fx (json cli viewer) https://github.com/antonmedv/fx
-
+- nnn (file manager) https://github.com/jarun/nnn
 </div>
 </div>
 
