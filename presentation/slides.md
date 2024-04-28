@@ -4,7 +4,7 @@ defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
 occasion: "MD-DevDays 2024"
-occasionLogoUrl: "/images/logo_magdeburger-devdays-2024.png"
+occasionLogoUrl: "./images/logo_magdeburger-devdays-2024.png"
 company: "MATHEMA"
 presenter: "Sandra Parsick & Patrick Drechsler"
 contact: "mail@sandra-parsick.de / patrick.drechsler@mathema.de"
