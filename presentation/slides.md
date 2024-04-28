@@ -406,27 +406,6 @@ Extra, nice-to-have information
 
 <!-- shell / PS1 -->
 
-# PS1: Powerline
-
-started as fancy statusline for `vim`...
-
-- <gh-stars count="13k"/> https://github.com/powerline/powerline
-- good-looking default settings
-  - shortens `$PWD`
-  - adds git status
-  - stable & customizable
-- available for `zsh`, `bash`, etc
-- category: unix-porn
-
-<img
-  class="absolute bottom-20 right-20"
-  src="/images/powerline-shell-example.png"
-/>
-
----
-
-<!-- shell / PS1 -->
-
 # PS1: Starship
 
 the new kid on the block
@@ -472,21 +451,6 @@ terminal-independent shell UI
 - Keybindings `F1` - `F12`
 - Sensible defaults (layout, info line)
 - category: productivity
-
----
-
-# ⚠️ Warning about tiling everything ⚠️
-
-don't forget about all the fun keybindings
-
-Nesting can become a challenge...
-
-| Abstraction level | Keybinding Brain Overload |
-|-------------------|---------------------------|
-| tiling **window manager** like `i3` or `sway` | 🤯 |
-| tiling **terminal** like `kitty` | 🤯🤯 |
-| tiling **shell** like `nushell` or `tmux` | 🤯🤯🤯 |
-| **application** like `emacs` or `vim` | 🤯🤯🤯🤯 |
 
 ---
 
