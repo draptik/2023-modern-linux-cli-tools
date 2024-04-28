@@ -966,14 +966,14 @@ Required: font providing all symbols
 
 ---
 
-## colorls 💡
+## eza 💡
 
-- <gh-stars count="4k"/> https://github.com/athityakumar/colorls
+- <gh-stars count="7k"/> https://github.com/eza-community/eza
 - category: unix porn
 
 <img
   class="absolute bottom-30 right-5 w-210"
-  src="/images/colorls.png"
+  src="/images/eza-screenshot.png"
 />
 
 ---
