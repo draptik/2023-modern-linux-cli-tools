@@ -26,6 +26,6 @@ layout: two-cols
 - https://www.linkedin.com/in/sandra-parsick
 
 <img
-  class="absolute bottom-5 left-10 h-60"
+  class="absolute bottom-5 right-10 h-60"
   src="/images/slides-magdeburger-devday-24.png"
 />
