@@ -669,7 +669,7 @@ https://geoff.greer.fm/ag/
 
 <v-click>
 <img
-  class="absolute top-20 right-5 w-120"
+  class="absolute top-0 right-5 w-120"
   src="/images/ag-demo.gif"
 />
 </v-click>
