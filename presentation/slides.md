@@ -128,7 +128,7 @@ VS Code is cool, but it is not a CLI tool
 <div grid="~ cols-2 gap-4">
 <div>
 
-- **Emacs** and **Vim**:
+- **Emacs**, **Vim** or **nano**:
     - navigation within file
     - cut, copy & paste
     - navigation between files
@@ -139,9 +139,10 @@ VS Code is cool, but it is not a CLI tool
 
 </div>
 <div>
-<div grid="~ cols-2 gap-4">
+<div grid="~ cols-3 gap-4">
 <img src="/images/emacs.png"/>
 <img src="/images/Vimlogo.svg" width="120" />
+<img src="/images/nano.png" width="120" />
 </div>
 </div>
 </div>
@@ -571,7 +572,31 @@ man pages can be difficult
     font-size: x-small
 }
 </style>
+---
+layout: two-cols
+---
 
+# explainshell 🧑‍🔧
+
+reverse engineering shell commands 
+
+- https://explainshell.com/
+
+::right::
+
+<v-click>
+<img
+  class="absolute top-10 right-5"
+  src="/images/explainshell-homepage.png"
+/>
+</v-click>
+
+<v-click>
+<img
+  class="absolute top-10 right-5"
+  src="/images/explainshell-in-action.png"
+/>
+</v-click>
 ---
 
 # McFly
@@ -1097,6 +1122,23 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 />
 
 </div>
+</div>
+
+---
+
+# Awesome books
+
+<div>
+
+<img
+  class="absolute top-5 right-50 w-xs"
+  src="/images/book-commandline.jpg"
+/>
+<img
+  class="absolute bottom-10 right-25 w-xs"
+  src="/images/buch-kommandozeile.jpg"
+/>
+
 </div>
 
 ---
