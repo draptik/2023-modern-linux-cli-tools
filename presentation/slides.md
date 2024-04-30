@@ -706,8 +706,12 @@ sql for json (and other data formats)
 
 
 ---
+layout: two-cols-header
+---
 
 ## Managing Development Environment
+
+::left::
 
 ### sdkman 
 
@@ -735,6 +739,21 @@ nvm install 16
 nvm use 16                        
 nvm alias default 8.1.0               
 ```
+
+<style>
+/* Adjust other styles as necessary to fit the new grid definition */
+.col-bottom {
+  align-self: end;
+  grid-area: 3 / 1 / 4 / 3; /* Adjust this to correctly place the bottom area */
+}
+
+.two-cols-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
 
 ---
 
