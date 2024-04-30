@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
             cd ${{ env.PRESENTATION_FOLDER }}
-            npm install --global
+            npm install
 
       - name: Install slidev
         run:  |
