@@ -25,12 +25,11 @@ jobs:
       - name: Install dependencies
         run: |
             cd ${{ env.PRESENTATION_FOLDER }}
-            npm install
+            npm install --global
 
       - name: Install slidev
         run:  |
             cd ${{ env.PRESENTATION_FOLDER }}
-            npm i -g unplugin-icons
             npm i -g @iconify-json/emojione
             npm i -g @iconify-json/logos
             npm i -g @iconify-json/mdi
