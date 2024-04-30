@@ -38,7 +38,6 @@ jobs:
             npm i -g @iconify-json/simple-icons
             npm i -g playwright-chromium
             npm i -g @slidev/cli
-            npm i -g @slidev/theme-default
 
       # Ensure to set the base directory to the current branch name
       - name: Build
