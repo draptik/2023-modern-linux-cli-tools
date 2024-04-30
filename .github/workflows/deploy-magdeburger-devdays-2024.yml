@@ -27,23 +27,11 @@ jobs:
             cd ${{ env.PRESENTATION_FOLDER }}
             npm install
 
-      - name: Install slidev
-        run:  |
-            cd ${{ env.PRESENTATION_FOLDER }}
-            npm i -g @iconify-json/emojione
-            npm i -g @iconify-json/logos
-            npm i -g @iconify-json/mdi
-            npm i -g @iconify-json/noto
-            npm i -g @iconify-json/openmoji
-            npm i -g @iconify-json/simple-icons
-            npm i -g playwright-chromium
-            npm i -g @slidev/cli
-
       # Ensure to set the base directory to the current branch name
       - name: Build
         run: |
             cd ${{ env.PRESENTATION_FOLDER }}
-            slidev build --base '/${{ env.TARGET_REPO_NAME }}/'
+            npm run build -- --base '/${{ env.TARGET_REPO_NAME }}/'
 
       - name: Deploy to target repository
         uses: JamesIves/github-pages-deploy-action@v4
