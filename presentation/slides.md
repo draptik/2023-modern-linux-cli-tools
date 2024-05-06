@@ -603,7 +603,6 @@ very fast `grep` replacement
 - sensible defaults: respect `.gitignore`, ignores hidden files & folders
 - command: `rg`
 - category: search
-
 - use `rg --hidden -g '!.git' "your search"` to search all hidden folder except `.git`
   - create an alias (maybe `rgh`?)...
 
