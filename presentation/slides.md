@@ -6,7 +6,7 @@ title: 'modern linux cli tools'
 occasion: "ADC 2024"
 # must be a relative path
 occasionLogoUrl: "./images/logo_adc.png"
-company: "MATHEMA"
+company: "MATHEMA GmbH"
 presenter: "Patrick Drechsler"
 contact: "patrick.drechsler@mathema.de"
 info: |
