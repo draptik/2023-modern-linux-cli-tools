@@ -150,16 +150,6 @@ VS Code is cool, but it is not a CLI tool
   class="absolute bottom-10 right-40 w-75"
   src="/images/comic-awk-grep-sed.png" />
 
----
-
-# Tipp
-
-A book, which has aged very well, is out in a 2nd edition (1st ed: 1988)..
-
-<img
-  class="absolute top-30 left-2 w-220"
-  src="/images/awk-2nd-ed.png" />
-
 
 ---
 
