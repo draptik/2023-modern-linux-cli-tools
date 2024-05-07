@@ -825,38 +825,6 @@ when the tv team comes in your office
 />
 
 ---
-layout: two-cols
----
-
-# ASCII art
-
-literally 100s of tools! For example...
-
-
-## pixterm
-
-- true color images in the terminal
-- <gh-stars count="930"/> https://github.com/eliukblau/pixterm
-
-<img
-  class="absolute bottom-10 right-5 w-70"
-  src="/images/asciiart-pixterm-screenshot.png"
-/>
-
-
-::right::
-
-## chafa
-
-- image-to-text converter
-- <gh-stars count="2k"/> https://github.com/hpjansson/chafa
-
-<img
-  class="absolute bottom-35 right-5 w-70"
-  src="/images/asciiart-chafa-screenshot.gif"
-/>
-
----
 
 # gh
 
