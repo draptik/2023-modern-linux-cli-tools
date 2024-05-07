@@ -21,6 +21,10 @@ src: ./00-title.md
 ---
 
 ---
+src: ./pages/01-intro.md
+---
+
+---
 layout: two-cols
 ---
 
