@@ -225,7 +225,7 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
-## Terminals (Sandra)
+## Terminals
 
 Linux:
 
@@ -292,7 +292,7 @@ More "modern" Terminals:
 
 ---
 
-# terminals TODO eventuell streichen?
+# terminals 
 
 modern alternatives
 
@@ -347,9 +347,6 @@ l='ls -lah'
 ll='ls -lh'
 ```
 
-::right::
-
-Demo
 
 ---
 
@@ -366,8 +363,14 @@ plugins=(sdk git jump z extract history web-search history-substring-search
 	mvn gitignore zsh-autosuggestions kubectl sublime asciidoctor ansible vagrant )
 ```
 
-::right::
-Demo
+---
+
+### oh-my-zsh in Action
+
+<img
+  class="h-md"
+  src="/screencasts/oh-my-zsh-demo.gif"
+/>
 
 ---
 
@@ -645,7 +648,7 @@ https://geoff.greer.fm/ag/
 <v-click>
 <img
   class="absolute top-0 right-5 w-120"
-  src="/images/ag-demo.gif"
+  src="/screencasts/ag-demo.gif"
 />
 </v-click>
 
@@ -781,6 +784,8 @@ nvm alias default 8.1.0
 </style>
 
 ---
+layout: two-cols-header
+---
 
 # Understanding new Code Repoitories
 
@@ -799,8 +804,13 @@ https://github.com/boyter/scc
 
 ::right::
 
-Demo
+<img
+  class="h-md"
+  src="/screencasts/cloc-demo.gif"
+/>
 
+---
+layout: two-cols-header
 ---
 
 # httpie
@@ -812,8 +822,13 @@ https://httpie.io/cli
 
 ::right::
 
-demo
+<img
+  class="absolute"
+  src="/screencasts/httpie-demo.gif"
+/>
 
+---
+layout: two-cols-header
 ---
 
 # Containertools
@@ -827,7 +842,10 @@ https://github.com/wagoodman/dive
 
 ::right::
 
-demo
+<img
+  class="absolute"
+  src="/screencasts/dive-demo.gif"
+/>
 
 ---
 
@@ -1153,7 +1171,6 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 - mosh (robust replacement for ssh) https://mosh.org/
 - fish_config (web-based configuration tool for fish shell) https://fishshell.com/docs/current/commands.html#fish_config
 - xclip (cli to X clipboard) 403 stars https://github.com/astrand/xclip
-- neofetch (fancy system info in the shell) 7.7k stars https://github.com/dylanaraps/neofetch 
 - expect https://likegeeks.com/expect-command/
 - http-prompt (cli http client) 7.6k stars http://http-prompt.com/
 - pywal (color schemes for terminal) 3.4k stars https://github.com/dylanaraps/pywal
