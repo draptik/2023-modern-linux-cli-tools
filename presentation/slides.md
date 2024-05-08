@@ -834,7 +834,7 @@ layout: two-cols-header
 # Containertools
 
 
-### dive (Sandra)
+### dive
 
 Docker Image Inspector
 
@@ -851,20 +851,24 @@ https://github.com/wagoodman/dive
 
 # Containertools
 
-## trivy (Sandra)
+## trivy
 
 Vulnerability/Misconfiguration/Secret Scanner for container
 
 https://aquasecurity.github.io/trivy
 
 ::right::
-Demo
+
+<img
+  class="absolute"
+  src="/screencasts/trivy-demo.gif"
+/>
 
 ---
 
 # Containertools
 
-### k9s (Sandra)
+### k9s 
 
 K8s manager 
 
@@ -872,8 +876,10 @@ https://k9scli.io/
 
 ::right::
 
-demo
-
+<img
+  class="absolute"
+  src="/screencasts/k9s-demo.gif"
+/>
 ---
 layout: screencast
 image: './screencasts/out2c.gif'
@@ -923,8 +929,10 @@ unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permission
 
 ::right::
 
-demo
-
+demo<img
+  class="absolute"
+  src="/screencasts/watch-demo.gif"
+/>
 ---
 
 # lolcat 🦄
