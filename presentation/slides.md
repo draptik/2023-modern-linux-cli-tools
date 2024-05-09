@@ -645,12 +645,12 @@ Code Searching Tool
 
 https://geoff.greer.fm/ag/
 
-<v-click>
+
 <img
   class="absolute top-0 right-5 w-120"
   src="/screencasts/ag-demo.gif"
 />
-</v-click>
+
 
 ---
 
@@ -726,7 +726,7 @@ sql for json (and other data formats)
 - <gh-stars count="8k"/> https://github.com/wader/fq
 - for example: audio, video, images, etc.
 
-### yq (Sandra)
+### yq
 
 - `jq`, but for YAML
 - https://mikefarah.gitbook.io/yq/
@@ -789,6 +789,8 @@ layout: two-cols-header
 
 # Understanding new Code Repoitories
 
+::left::
+
 ### cloc 
 
 `cloc` counts empty line, lines of comments and lines of code in different programming language
@@ -809,8 +811,21 @@ https://github.com/boyter/scc
   src="/screencasts/cloc-demo.gif"
 />
 
----
-layout: two-cols-header
+<style>
+/* Adjust other styles as necessary to fit the new grid definition */
+.col-bottom {
+  align-self: end;
+  grid-area: 3 / 1 / 4 / 3; /* Adjust this to correctly place the bottom area */
+}
+
+.two-cols-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  column-gap: 20px; /* Adjust the gap size as needed */
+}
+</style>
+
 ---
 
 # httpie
@@ -820,19 +835,15 @@ alternative to `wget`  and `curl`
 https://httpie.io/cli
 
 
-::right::
-
 <img
-  class="absolute"
+  class="absolute top-0 right-5 w-120"
   src="/screencasts/httpie-demo.gif"
 />
 
----
-layout: two-cols-header
+
 ---
 
 # Containertools
-
 
 ### dive
 
@@ -840,10 +851,8 @@ Docker Image Inspector
 
 https://github.com/wagoodman/dive
 
-::right::
-
 <img
-  class="absolute"
+  class="absolute top-0 right-5 w-120"
   src="/screencasts/dive-demo.gif"
 />
 
@@ -851,16 +860,14 @@ https://github.com/wagoodman/dive
 
 # Containertools
 
-## trivy
+### trivy
 
 Vulnerability/Misconfiguration/Secret Scanner for container
 
 https://aquasecurity.github.io/trivy
 
-::right::
-
 <img
-  class="absolute"
+  class="absolute top-50 right-6 w-120"
   src="/screencasts/trivy-demo.gif"
 />
 
@@ -874,10 +881,9 @@ K8s manager
 
 https://k9scli.io/
 
-::right::
 
 <img
-  class="absolute"
+  class="absolute top-40 right-5 w-180"
   src="/screencasts/k9s-demo.gif"
 />
 ---
@@ -927,10 +933,8 @@ unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permission
 - Built-in Linux command 
 - Repeat defined commands in a loop
 
-::right::
-
-demo<img
-  class="absolute"
+<img
+  class="absolute top-45 right-5 w-180 h-85"
   src="/screencasts/watch-demo.gif"
 />
 ---
@@ -1152,12 +1156,12 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 
 ---
 
-# Awesome books
+# Awesome book
 
 <div>
 
 <img
-  class="absolute top-5 right-50 w-xs"
+  class="absolute bottom-10 right-125 w-xs"
   src="/images/book-commandline.jpg"
 />
 <img
@@ -1171,7 +1175,7 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 
 # I forgot your favorite tool?
 
-<div grid="~ cols-2 gap-4">
+<div>
 <div>
 
 - git-fuzzy https://github.com/bigH/git-fuzzy
