@@ -787,7 +787,7 @@ nvm alias default 8.1.0
 layout: two-cols-header
 ---
 
-# Understanding new Code Repoitories
+# Understanding new Code Repositories
 
 ::left::
 
